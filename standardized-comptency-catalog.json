@@ -1,0 +1,1325 @@
+{
+  "knowledgeAreas" : [ {
+    "title" : "Algorithmic Foundations",
+    "shortTitle" : "AL",
+    "competencies" : [ {
+      "title" : "Data Structures (Basics)",
+      "description" : "- Abstract Data Type (ADT) and operations on an ADT\n    - Dictionary operations (insert, delete, find)\n- Records/Structs/Tuples and Objects\n- Sets",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Arrays",
+      "description" : "- Arrays\n    - Numeric vs non-numeric, character strings\n    - Single (vector) vs multidimensional (matrix)\n- Search\n    - O(n) complexity (e.g., linear/sequential array/list search)\n    - O(log2 n) complexity (e.g., binary search)",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Sorting Algorithms",
+      "description" : "- Sorting algorithms (e.g., stable, unstable)\n    - O(n2) complexity (e.g., insertion, selection),\n    - O(n log n) complexity (e.g., quicksort, merge, timsort)",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Linked Lists",
+      "description" : "- Linked Lists\n    - Single vs Double and Linear vs Circular\n    - Search O(n)",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Stacks and Queues",
+      "description" : "- Stacks\n- Queues and Deques\n    - Heap-based priority queue",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Hash Tables/ Maps",
+      "description" : "- Hash Tables / Maps\n    - Collision resolution and complexity (e.g., probing, chaining, rehash)\n    - Time vs Space tradeoff",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Trees",
+      "description" : "- Trees\n    - Search Algorithms DFS/BFS\n    - Decrease-and-Conquer\n    - Balanced Trees (e.g., AVL, 2-3, Red-Black, Heap)\n        - Transform-and-Conquer: Representation\nChange (e.g., heapsort)",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Graphs",
+      "description" : "- Graphs (e.g., [un]directed, [a]cyclic, [un]connected,[un]weighted)\n    - Representation: Adjacency List vs Matrix\n- Graph Algorithms\n    - Shortest Path (e.g., Dijkstra’s, Floyd’s)\n    - Minimal, spanning tree (e.g., Prim’s, Kruskal’s)\n    - Greedy\n        - Dynamic Programming",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Algorithmic Strategies",
+      "description" : "- Paradigms (demonstrated in AL-Foundational)\n    - Brute-Force,\n    - Decrease-and-Conquer,\n    - Divide-and-Conquer,\n    - Time-Space Tradeoff,\n- Iteration vs Recursion,\n    - Transform-and-Conquer\n        - Instance Simplification (e.g., pre-sorting)\n        - Problem Reduction (e.g.,least-common-multiple)\n- Handling Exponential Growth\n(e.g., heuristic A*, backtracking, ranch-and-bound)\n - Dynamic Programming\n(e.g., Bellman-Ford, Knapsack, Floyd, Warshall)",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Complexity Analysis",
+      "description" : "- Complexity Analysis Framework\n- Asymptotic Complexity Analysis\n    - Big O, Big Omega, and Big Theta\n    - Foundational complexity classes: Constant, Logarithmic, Linear, Log Linear, Quadratic, and Cubic \n- Tractability and Intractability\n    - P, NP and NP-C complexity classes\n    - NP-Complete Problems\n(e.g., SAT, Knapsack, TSP)\n    - Reductions\n    - Paradigms: Exhaustive brute force,\n        - Dynamic Programming\n        - Foundational Complexity Classes: Exponential\n        - Factorial complexity classes: Factorial O(n!)\n(e.g. All Permutations, Hamiltonian Circuit)",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Computational Models",
+      "description" : "- Formal Automata\n    - Finite State Automata\n    - Regular language, grammar, and expressions\n    - Pushdown Automata\n    - Context-Free language and grammar\n    - Turing Machine\n    - Recursively Enumerable language and grammar\n    - Linear-Bounded\n    - Context-Sensitive language and grammar\n- Formal Languages and Grammars\n- Decidability, Computability, Halting problem\n- The Church-Turing Thesis\n- Algorithmic Correctness\n    Invariants (e.g., in iteration, recursion, sorting, heaps)",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Society, Ethics and the Profession",
+      "description" : "- Social, Ethical, and Secure Algorithms\n- Algorithmic Fairness (e.g. differential privacy)\n- Accountability/Transparency\n- Responsible algorithms\n- Economic and other impacts of algorithms\n- Sustainability",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    } ]
+  }, {
+    "title" : "Architecture and Organization",
+    "shortTitle" : "AR",
+    "competencies" : [ {
+      "title" : "Memory Hierarchy",
+      "description" : "- Memory hierarchy: the importance of temporal and spatial locality\n- Main memory organization and operations\n- Persistent memory (e.g., SSD, standard disks)\n- Latency, cycle time, bandwidth, and interleaving\n- Virtual memory (hardware support)\n- Fault handling and reliability\n- Reliability\n    - Error coding\n    - Data compression\n    - Data integrity\n- In-Memory Processing (PIM)",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Caches",
+      "description" : "- Cache memories\n    - Address mapping\n    - Block size\n    - Replacement and store policy\n- Multiprocessor cache coherence",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Functional Organization",
+      "description" : "- Implementation of simple datapaths, including instruction pipelining, hazard detection, and resolution\n- Control unit\n    - Hardwired implementation\n    - Microprogrammed realization \n- Instruction pipelining\n- Introduction to instruction-level parallelism (ILP)",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Performance and Energy Efficiency",
+      "description" : "- Performance-energy evaluation (introduction): performance, power consumption, memory, and communication costs\n- Branch prediction, speculative execution, out-of-order execution, Tomasulo's algorithm",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Performance and Energy Efficiency (Advanced)",
+      "description" : "- Enhancements for vector processors and GPUs\n- Hardware support for Multithreading\n    - Race conditions\n    - Lock implementations\n    - Point-to-point synchronization\n    - Barrier implementation\n- Scalability\n- Alternative architectures, such as VLIW/EPIC, accelerators, and other special-purpose processors\n- Dynamic voltage and frequency scaling (DVFS)\n- Dark Silicon",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Machine-Level Data Representation",
+      "description" : "- Overview and history of computer architecture\n- Bits, bytes, and words\n- Unsigned, signed and two’s complement representations\n- Numeric data representation and number bases\n    - Fixed-point\n    - Floating-point\n- Representation of non-numeric data\n- Representation of records, arrays and UTF data types",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Interfacing and Communication",
+      "description" : "- I/O fundamentals\n    - Handshaking and buffering\n    - Programmed I/O\n    - Interrupt-driven I/O\n- Interrupt structures: vectored and prioritized, interrupt acknowledgment\n- I/O devices (e.g., mouse, keyboard, display, camera, sensors, actuators)\n- External storage, physical organization, and drives\n- Bus fundamentals\n    - Bus protocols\n    - Arbitration\n    - Direct-memory access (DMA)",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Heterogeneous Architectures",
+      "description" : "- SIMD and MIMD architectures (e.g., General-Purpose GPUs, TPUs, and NPUs)\n- Heterogeneous memory system\n    - Shared memory versus distributed memory\n    - Volatile vs non-volatile memory\n    - Coherence protocols\n- Domain-Specific Architectures (DSAs)\n    - Machine Learning Accelerator\n    - In-networking computing\n    - Embedded systems for emerging applications\n    - Neuromorphic computing\n    - Edge computing devices\n- Packaging and integration solutions such as 3DIC and Chiplets\n- Machine learning in architecture design\n    - AI algorithms for workload analysis\n    - Optimization of architecture configurations for performance and power efficiency",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Secure Processor Architectures",
+      "description" : "- Principles of Secure Hardware\n    - Security Risk Analysis, Asset Protection, and Threat Model\n    - Cryptographic Acceleration with Hardware\n    - Support for virtualization (e.g., OS isolation)\n- Roots of trust in hardware, Physically Unclonable Functions (PUF)\n- Hardware Random Number Generators\n- Memory protection extensions\n    - Runtime pointer bounds checking (e.g., buffer overflow)\n    - Protection at the microarchitectural level\n    - Protection at the ISA level\n- Trusted Execution Environment (TEE)\n    - Trusted Computer Base Protections\n    - Protecting virtual machines\n    - Protecting containers\n    - Trusted software modules (Enclaves)",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Quantum Architectures",
+      "description" : "- Principles\n    - The wave-particle duality principle\n    - The uncertainty principle in the double-slit experiment\n    - What is a Qubit? Superposition and measurement. Photons as qubits.\n    - Systems of two qubits. Entanglement. Bell states. The No-Signaling theorem.\n- Axioms of QM: superposition principle, measurement axiom, unitary evolution\n- Single qubit gates for the circuit model of quantum computation: X, Z, H.\n- Two qubit gates and tenEsor products. Working with matrices.\n- The No-Cloning Theorem. The Quantum Teleportation protocol.\n- Algorithms\n    - Simple quantum algorithms: Bernstein-Vazirani, Simon’s algorithm.\n    - Implementing Deutsch-Josza with Mach-Zehnder Interferometers.\n    - Quantum factoring (Shor’s Algorithm)\n    - Quantum search (Grover’s Algorithm)\n- Implementation aspects\n    - The physical implementation of qubits\n    - Classical control of a Quantum Processing Unit (QPU)\n    - Error mitigation and control. NISQ and beyond.\n- Emerging Applications\n    - Post-quantum encryption\n    - The Quantum Internet\n    - Adiabatic quantum computation (AQC) and quantum annealing",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Logic and Systems",
+      "description" : "- Combinational vs sequential logic/field programmable gate arrays (FPGAs)\n    - Fundamental combinational\n    - Sequential logic building block \n- Computer-aided design tools that process hardware and architectural representations\n- High-level synthesis\n    - Register transfer notation\n    - Hardware description language (e.g., Verilog/VHDL/Chisel)\n- System-on-chip (SoC) design flow\n- Physical constraints\n    - Gate delays\n    - Fan-in and fan-out\n    - Energy/power\n    - Speed of light",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Assembly Level Machine Organization",
+      "description" : "- von Neumann machine architecture\n- Control unit: instruction fetch, decode, and execution\n- Introduction to SIMD vs MIMD and the Flynn taxonomy\n- Shared memory multiprocessors/multicore organization",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Assembly Level Machine Organization (Advanced)",
+      "description" : "- Instruction set architecture (ISA) (e.g., x86, ARM, and RISC-V)\n    - Instruction formats\n    - Data manipulation, control, I/O\n    - Addressing modes\n    - Machine language programming\n    - Assembly language programming\n- Subroutine call and return mechanisms\n- I/O and interrupts\n- Heap, static, stack, and code segments",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    } ]
+  }, {
+    "title" : "Artificial Intelligence",
+    "shortTitle" : "AI",
+    "competencies" : [ {
+      "title" : "Graph Search",
+      "description" : "- State space representation of a problem\n    - Specifying states, goals, and operators\n    - Factoring states into representations (hypothesis spaces)\n    - Problem solving by graph search\n        - e.g., Graphs as a space, and tree traversals as exploration of that space\n        - Dynamic construction of the graph (you're not given it upfront)",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Uninformed Graph Search",
+      "description" : "- Uninformed graph search for problem solving\n    - Breadth-first search\n    - Depth-first search\n        - With iterative deepening \n    - Uniform cost search\n- Space and time complexities of graph search algorithms",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Heuristic Graph Search",
+      "description" : "- Heuristic graph search for problem solving\n    - Heuristic construction and admissibility\n    - Hill-climbing\n    - Local minima and the search landscape\n        - Local vs global solutions\n    - Greedy best-first search\n    - A* search\n- Space and time complexities of graph search algorithms",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Graph Search (Advanced)",
+      "description" : "- Bidirectional search\n- Beam search\n- Two-player adversarial games\n    - Minimax search\n    - Alpha-beta pruning\n        - Ply cutoff\n- Implementation of A* search\n- Constraint Satisfaction",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Knowledge Representation and Reasoning",
+      "description" : "- Types of representations\n    - Symbolic, logical\n        - Creating a representation from a natural language problem statement\n    - Learned subsymbolic representations\n    - Graphical models (e.g., naive Bayes, Bayes net) \n- Review of probabilistic reasoning, Bayes theorem\n- Bayesian reasoning\n    - Bayesian inference",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Knowledge Representation and Reasoning (Advanced)",
+      "description" : "- Random variables and probability distributions\n    - Axioms of probability\n    - Probabilistic inference\n    - Bayes’ Rule (derivation)\n    - Bayesian inference (more complex examples)\n- Independence\n- Conditional Independence\n- Markov chains and Markov models\n- Utility and decision making",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Machine Learning (Basics)",
+      "description" : "- Definition and examples of a broad variety of machine learning tasks\n    - Supervised learning\n        - Classification\n        - Regression\n    - Reinforcement learning\n    - Unsupervised learning\n        - Clustering\n- Fundamental ideas:\n    - No free lunch theorem: no one learner can solve all problems; representational design decisions have consequences\n    - sources of error and undecidability in machine learning",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Machine Learning",
+      "description" : "- A simple statistical-based supervised learning such as linear regression or decision trees\n    - Focus on how they work without going into mathematical or optimization details; enough to understand and use existing implementations correctly\n- The overfitting problem / controlling solution complexity (regularization, pruning – intuition only)\n    - The bias (underfitting) - variance (overfitting) tradeoff\n- Working with Data\n    - Data preprocessing\n        - Importance and pitfalls of preprocessing choices\n    - Handling missing values (imputing, flag-as-missing)\n        - Implications of imputing vs flag-as-missing\n    - Encoding categorical variables, encoding real-valued data\n    - Normalization/standardization\n    - Emphasis on real data, not textbook examples\n- Representations\n    - Hypothesis spaces and complexity\n    - Simple basis feature expansion, such as squaring univariate features\n    - Learned feature representations\n- Machine learning evaluation\n    - Separation of train, validation, and test sets\n    - Performance metrics for classifiers\n    - Estimation of test performance on held-out data\n    - Tuning the parameters of a machine learning model with a validation set\n    - Importance of understanding what your model is actually doing, where its pitfalls/shortcomings are, and the implications of its decisions\n- Basic neural networks\n    - Fundamentals of understanding how neural networks work and their training process, without details of the calculations\n    - Basic introduction to generative neural networks (large language models, etc.)",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Ethics for Machine Learning",
+      "description" : "- Ethics for Machine Learning\n    - Focus on real data, real scenarios, and case studies\n    - Dataset/algorithmic/evaluation bias and unintended consequences\n    - Privacy\n    - Fairness\n    - Intellectual property\n    - Explainability",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Deep Learning (Basics)",
+      "description" : "- Deep learning\n    - Deep feed-forward networks (intuition only, no mathematics)\n    - Convolutional neural networks (intuition only, no mathematics)\n    - Visualization of learned feature representations from deep nets\n    - Other architectures (generative NN, recurrent NN, transformers, etc.)",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Machine Learning (Advanced)",
+      "description" : "- Formulation of simple machine learning as an optimization problem, such as least squares linear regression or logistic regression\n    - Objective function\n    - Gradient descent\n    - Regularization to avoid overfitting (mathematical formulation)\n- Ensembles of models\n    - Simple weighted majority combination\n- Performance evaluation\n    - Other metrics for classification (e.g., error, precision, recall)\n    - Performance metrics for regressors\n    - Confusion matrix\n    - Cross-validation\n        - Parameter tuning (grid/random search, via cross-validation)\n- Overview of reinforcement learning methods\n- Two or more applications of machine learning algorithms\n    - E.g., medicine and health, economics, vision, natural language, robotics, game play",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Applications and Societal Impact",
+      "description" : "- At least one application of AI to a specific problem and field, such as medicine, health, sustainability, social media, economics, education, robotics, etc. (choose at least one for the CS Core).\n    - Formulating and evaluating a specific application as an AI problem\n        - How to deal with underspecified or ill-posed problems\n    - Data availability/scarcity and cleanliness\n        - Basic data cleaning and preprocessing\n        - Data set bias\n    - Algorithmic bias\n    - Evaluation bias\n    - Assessment of societal implications of the application\n- Deployed deep generative models\n    - High-level overview of deep image generative models (e.g. as of 2023, DALL-E, Midjourney, Stable Diffusion, etc.), their uses, and their shortcomings/pitfalls.\n    - High-level overview of large language models (e.g. as of 2023, ChatGPT, Bard, etc.), their uses, and their shortcomings/pitfalls.\n- Overview of societal impact of AI\n    - Ethics\n    - Fairness\n    - Trust / explainability\n    - Privacy and usage of training data\n    - Human autonomy and oversight/regulations/legal requirements\n    - Sustainability",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Applications and Societal Impact (Advanced)",
+      "description" : "- One or more additional applications of AI to a broad set of problems and diverse fields, such as medicine, health, sustainability, social media, economics, education, robotics, etc. (choose a different area from that chosen for the CS Core).\n    - Formulating and evaluating a specific application as an AI problem\n        - How to deal with underspecified or ill-posed problems\n    - Data availability/scarcity and cleanliness\n        - Basic data cleaning and preprocessing\n        - Data set bias\n    - Algorithmic bias\n    - Evaluation bias\n    - Assessment of societal implications of the application\n- Additional depth on deployed deep generative models\n    - Introduction to how deep image generative models (e.g. as of 2023, DALL-E, Midjourney, Stable Diffusion, etc.) work, including discussion of attention\n    - Introduction to how large language models (e.g. as of 2023, ChatGPT, Bard, etc.) work, including discussion of attention\n    - Idea of foundational models, how to use them, and the benefits / issues with training them from big data\n- Analysis and discussion of the societal impact of AI\n    - Ethics\n    - Fairness\n    - Trust / explainability\n    - Privacy and usage of training data\n    - Human autonomy and oversight/regulations/legal requirements\n    - Sustainability",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Fundamental Issues",
+      "description" : "- Overview of AI problems, Examples of successful recent AI applications\n- Definitions of agents with examples (e.g., reactive, deliberative)\n- What is intelligent behavior?\n    - The Turing testand its flaws\n    - Multimodal input and output\n    - Simulation of intelligent behavior\n    - Rational versus non-rational reasoning \n- AI Applications, growth, and Impact (economic, societal, ethics)",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Agents and Cognitive Systems",
+      "description" : "- Problem characteristics\n    - Fully versus partially observable\n    - Single versus multi-agent\n    - Deterministic versus stochastic\n    - Static versus dynamic\n    - Discrete versus continuous\n- Nature of agents\n    - Autonomous, semi-autonomous, mixed-initiative autonomy\n    - Reflexive, goal-based, and utility-based\n    - Decision making under uncertainty and with incomplete information\n    - The importance of perception and environmental interactions\n    - Learning-based agents\n    - Embodied agents\n        - sensors, dynamics, effectors",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    } ]
+  }, {
+    "title" : "Data Management",
+    "shortTitle" : "DM",
+    "competencies" : [ {
+      "title" : "Core Database System Concepts",
+      "description" : "- Purpose and advantages of database systems\n- Components of database systems \n- Design of core DBMS functions (e.g., query mechanisms, transaction management, buffer management, access methods) \n- Database architecture, data independence, and data abstraction\n- Transaction management\n- Normalization \n- Approaches for managing large volumes of data (e.g., NoSQL database systems, use of MapReduce) \n- How to support CRUD-only applications\n- Distributed databases/cloud-based systems\n- Structured, semi-structured, and unstructured databases\n- Use of a declarative query language\n- Systems supporting structured and/or stream content",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Data Modeling",
+      "description" : "- Data modeling \n- Relational data models \n- Conceptual models (e.g., entity-relationship, UML diagrams)\n- Semi-structured data model (expressed using DTD, XML, or JSON Schema, for example)",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Relational Databases",
+      "description" : "- Entity and referential integrity\n    - Candidate key, superkeys\n- Relational database design",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Relational Databases (Advanced)",
+      "description" : "- Mapping conceptual schema to a relational schema\n- Physical database design: file and storage structures\n- Introduction to Functional dependency theory\n- Normalization theory \n    - Decomposition of a schema; lossless-join and dependency-preservation properties of a decomposition\n    - Normal forms (BCNF)\n    - Denormalization (for efficiency)",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Query Construction",
+      "description" : "- SQL Query Formation\n    - Interactive SQL execution\n    - Programmatic execution of an SQL query",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Query Construction (Advanced)",
+      "description" : "- Relational Algebra\n- SQL\n    - Data definition including integrity and other constraints specification\n    - Update sublanguage",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Query Processing",
+      "description" : "- Page structures\n- Index structures\n    - B+ trees\n    - Hash indices: static and dynamic\n    - Index creation in SQL\n- File Structures\n    - Heap files\n    - Hash files\n- Algorithms for query operators\n    - External Sorting\n    - Selection\n    - Projection; with and without duplicate elimination\n    - Natural Joins: Nested loop, Sort-merge, Hash join\n    - Analysis of algorithm efficiency\n- Query transformations\n- Query optimization\n    - Access paths\n    - Query plan construction\n    - Selectivity estimation\n    - Index-only plans\n- Parallel Query Processing (e.g., parallel scan, parallel join, parallel aggregation)",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Query Processing (Advanced)",
+      "description" : "- Database tuning/performance\n    - Index selection\n    - Impact of indices on query performance\n    - Denormalization",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Data Security and Privacy",
+      "description" : "- Differences between data security and data privacy\n- Protecting data and database systems from attacks, including injection attacks such as SQL injection \n- Personally identifying information (PII) and its protection\n- Ethical considerations in ensuring the security and privacy of data",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Data Security and Privacy (Advanced)",
+      "description" : "- Need for, and different approaches to securing data at rest, in transit, and during processing\n- Database auditing and its role in digital forensics \n- Data inferencing and preventing attacks \n- Laws and regulations governing data security and data privacy",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Data Life Cycle",
+      "description" : "- The Data Life Cycle",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "DBMS Internals",
+      "description" : "- DB Buffer Management\n- Transaction Processing\n    - Isolation Levels\n    - ACID\n    - Serializability\n    - Distributed transactions\n- Concurrency Control:\n    - 2-Phase Locking \n    - Deadlocks handling strategies\n    - Quorum-based consistency models\n- Recovery Manager\n    - Relation with Buffer Manager",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "NoSQL Systems",
+      "description" : "- Why NoSQL? (e.g., Impedance mismatch between Application [CRUD] and RDBMS)\n- Key-Value and Document data model",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Data Analytics",
+      "description" : "- Exploratory data techniques (motivation, representation, descriptive statistics, visualizations)\n- Data science lifecycle: business understanding, data understanding, data preparation, modeling, evaluation, deployment, and user acceptance\n- Data mining and machine learning algorithms: e.g., classification, clustering, association, regression\n- Data acquisition and governance\n- Data security and privacy considerations\n- Data fairness and bias\n- Data visualization techniques and their use in data analytics\n- Entity Resolution",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Society, Ethics and the Profession",
+      "description" : "- Issues related to scale\n- Data privacy overall\n    - Privacy compliance by design\n- Data anonymity\n- Data ownership/custodianship\n- Intended and unintended applications of stored data\n- Reliability of data\n- Provenance, data lineage, and metadata management\n- Data security",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    } ]
+  }, {
+    "title" : "Foundations of Programming Languages",
+    "shortTitle" : "FPL",
+    "competencies" : [ {
+      "title" : "Type Systems",
+      "description" : "- A type as a set of values together with a set of operations:\n    - Primitive types (e.g., numbers, Booleans).\n    - Compound types built from other types (e.g., records/structs, unions, arrays, lists, functions, references using set operations).\n- Association of types to variables, arguments, results, and fields.\n- Type safety as an aspect of program correctness.\n- Type safety and errors caused by using values inconsistently given their intended types.\n- Goals and limitations of static and dynamic typing:\n    - Detecting and eliminating errors as early as possible.\n- Generic types (parametric polymorphism):\n    - Definition and advantages of polymorphism: parametric, subtyping, overloading and coercion.\n    - Comparison of monomorphic and polymorphic types.\n    - Comparison with ad-hoc polymorphism (overloading) and subtype polymorphism.\n    - Generic parameters and typing.\n    - Use of generic libraries such as collections.\n    - Comparison with ad hoc polymorphism (overloading) and subtype polymorphism.\n    - Prescriptive vs descriptive polymorphism.\n    - Implementation models of polymorphic types.\n        - Subtyping.",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Type Systems (Advanced)",
+      "description" : "- Type equivalence: structural vs name equivalence.\n- Complementary benefits of static and dynamic typing:\n    - Errors early vs errors late/avoided.\n    - Enforce invariants during code development and code maintenance vs postpone typing decisions while prototyping and conveniently allow flexible coding patterns such as heterogeneous collections.\n    - Typing rules:\n        - Rules for function, product, and sum types.\n    - Avoid misuse of code vs allow more code reuse.\n    - Detect incomplete programs vs allow incomplete programs to run.\n    - Relationship to static analysis.\n    - Decidability.",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Language Translation and Execution",
+      "description" : "- Execution models for JIT (Just-In-Time), compiler, interpreter.\n- Use of intermediate code, e.g., bytecode.\n- Limitations and benefits of JIT, compiler, and interpreter.\n- Cross compilers/transpilers.\n- BNF and extended BNF representation of context-free grammar.\n- Parse tree using a simple sentence such as arithmetic expression or if-then-else statement.\n- Execution as native code or within a virtual machine.\n- Language translation pipeline: syntax analysis, parsing, optional type-checking, translation/code generation and optimization, linking, loading, execution. \n- Run-time representation of core language constructs such as objects (method tables) and first-class functions (closures).\n- Secure compiler development.",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Logic Programming",
+      "description" : "- Universal vs existential quantifiers.\n- First order predicate logic vs higher order logic.\n- Expressing complex relations using logical connectives and simpler relations.\n- Definitions of Horn clause, facts, goals and subgoals.\n- Unification and unification algorithm; unification vs assertion vs expression evaluation.\n- Mixing relations with functions.\n- Cuts, backtracking, and non-determinism.\n- Closed-world vs open-world assumptions.",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Shell Scripting",
+      "description" : "- Error/exception handling.\n- Piping.\n- System commands:\n    - Interface with operating systems.\n- Environment variables.\n- File abstraction and operators.\n- Data structures, such as arrays and lists.\n- Regular expressions.\n- Programs and processes.\n- Workflow.",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Systems Execution and Memory  Model",
+      "description" : "- Data structures for translation, execution, translation and code mobility such as stack, heap, aliasing (sharing using pointers), indexed sequence and string.\n- Direct, indirect, and indexed access to memory location.\n- Run-time representation of data abstractions such as variables, arrays, vectors, records, pointer-based data elements such as linked-lists and trees, and objects.\n- Abstract low-level machine with simple instruction, stack and heap to explain translation and execution.\n- Run-time layout of memory: activation record (with various pointers), static data, call-stack, heap:\n    - Translating selection and iterative constructs to control-flow diagrams.\n    - Translating control-flow diagrams to low level abstract code.\n    - Implementing loops, recursion, and tail calls.\n    - Translating function/procedure calls and return from calls, including different parameter-passing mechanisms using an abstract machine.\n- Memory management:\n    - Low level allocation and accessing of high-level data structures such as basic data types, n-dimensional array, vector, record, and objects.\n    - Return from procedure as automatic deallocation mechanism for local data elements in the stack.\n    - Manual memory management: allocating, de-allocating, and reusing heap memory.\n    - Automated memory management: garbage collection as an automated technique using the notion of reachability.\n- Green computing.",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Program Abstraction and Representation",
+      "description" : "- BNF and regular expressions.\n- Programs that take (other) programs as input such as interpreters, compilers, type-checkers, documentation generators.\n- Components of a language:\n    - Definitions of alphabets, delimiters, sentences, syntax and semantics.\n    - Syntax vs semantics.\n- Program as a set of non-ambiguous meaningful sentences.\n- Basic programming abstractions: constants, variables, declarations (including nested declarations), command, expression, assignment, selection, definite and indefinite iteration, iterators, function, procedure, modules, exception handling.\n- Mutable vs immutable variables: advantages and disadvantages of reusing existing memory location vs advantages of copying and keeping old values; storing partial computation vs recomputation.\n- Types of variables: static, local, nonlocal, global; need and issues with nonlocal and global variables.\n- Scope rules: static vs dynamic; visibility of variables; side-effects.\n- Side-effects induced by nonlocal variables, global variables and aliased variables.",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Object-Oriented Programming",
+      "description" : "- Imperative programming as a subset of object-oriented programming.\n- Object-oriented design:\n    - Decomposition into objects carrying state and having behavior.\n    - Class-hierarchy design for modeling.\n- Definition of classes: fields, methods, and constructors.\n- Subclasses, inheritance (including multiple inheritance), and method overriding.\n- Dynamic dispatch: definition of method-call.\n- Exception handling.\n- Object-oriented idioms for encapsulation:\n    - Privacy, data hiding, and visibility of class members.\n    - Interfaces revealing only method signatures.\n    - Abstract base classes, traits and mixins.\n- Dynamic vs static properties.\n- Composition vs inheritance.\n- Subtyping:\n    - Subtype polymorphism; implicit upcasts in typed languages.\n    - Notion of behavioral replacement: subtypes acting like supertypes.\n    - Relationship between subtyping and inheritance.\n- Collection classes, iterators, and other common library components.\n- Metaprogramming and reflection.",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Functional Programming",
+      "description" : "- Lambda expressions and evaluation:\n    - Variable binding and scope rules.\n    - Parameter-passing.\n    - Nested lambda expressions and reduction order.\n- Effect-free programming:\n    - Function calls have no side effects, facilitating compositional reasoning.\n    - Immutable variables and data copying vs reduction.\n    - Use of recursion vs loops vs pipelining (map/reduce).\n- Processing structured data (e.g., trees) via functions with cases for each data variant:\n    - Functions defined over compound data in terms of functions applied to the constituent pieces.\n    - Persistent data structures.\n- Using higher-order functions (taking, returning, and storing functions).",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Functional Programming (Advanced)",
+      "description" : "- Metaprogramming and reflection.\n- Function closures (functions using variables in the enclosing lexical environment):\n    - Basic meaning and definition - creating closures at run-time by capturing the environment.\n    - Canonical idioms: call-backs, arguments to iterators, reusable code via function arguments.\n    - Using a closure to encapsulate data in its environment.\n    - Lazy versus eager evaluation.",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Event-Driven and Reactive Programming",
+      "description" : "- Procedural programming vs reactive programming: advantages of reactive programming in capturing events.\n- Components of reactive programming: event-source, event signals, listeners and dispatchers, event objects, adapters, event-handlers.\n- Stateless and state-transition models of event-based programming.\n- Canonical uses such as GUIs, mobile devices, robots, servers.",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Event-Driven and Reactive Programming (Advanced)",
+      "description" : "- Using a reactive framework:\n    - Defining event handlers/listeners.\n    - Parameterization of event senders and event arguments.\n    - Externally generated events and program-generated events.\n- Separation of model, view, and controller.\n- Event-driven and reactive programs as state-transition systems.",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Parallel and Distributed Computing",
+      "description" : "- Safety and liveness:\n    - Race conditions.\n    - Dependencies/preconditions.\n    - Fault models.\n    - Termination.\n- Programming models. One or more of the following:\n    - Actor models.\n    - Procedural and reactive models.\n    - Synchronous/asynchronous programming models.\n    - Data parallelism.\n- Properties\n    - Order-based properties:\n        - Commutativity.\n        - Independence.\n    - Consistency-based properties:\n        - Atomicity.\n        - Consensus.\n- Execution control:\n    - Async await.\n    - Promises.\n    - Threads.\n- Communication and coordination:\n    - Mutexes.\n    - Message-passing.\n    - Shared memory.\n    - Cobegin-coend.\n    - Monitors.\n    - Channels.\n    - Threads.\n    - Guards.",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Parallel and Distributed Computing (Advanced)",
+      "description" : "- Futures.\n- Language support for data parallelism such as forall, loop unrolling, map/reduce.\n- Effect of memory-consistency models on language semantics and correct code generation.\n- Representational State Transfer Application Programming Interfaces (REST APIs).\n- Technologies and approaches: cloud computing, high performance computing, quantum computing, ubiquitous computing\n- Overheads of message-passing\n- Granularity of program for efficient exploitation of concurrency.\n- Concurrency and other programming paradigms (e.g., functional).",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    } ]
+  }, {
+    "title" : "Graphics and Interactive Techniques",
+    "shortTitle" : "GIT",
+    "competencies" : [ {
+      "title" : "Society, Ethics, and the Profession",
+      "description" : "- Accessibility\n- Ethics/privacy\n- Intellectual Property law as it relates to computer graphics and interactive techniques\n- DEIA, current and past contributors to the field",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Fundamental Concepts",
+      "description" : "- Uses and potential risks\n- Graphic output\n- Human vision system\n- Standard image formats\n- Digitization of analog data\n- Color Models\n- Tradeoffs between storing image data and recomputing image data\n- Spatialization\n- Animation\n- Applied computer graphics\n- Display characteristics",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Visualization",
+      "description" : "- Data Visualization and Information Visualization\n- Visualization of:\n    - 2D/3D scalar fields\n    - Vector fields and flow data\n    - Time-varying data\n    - High-dimensional data\n    - Non-spatial data\n- Visualization techniques (e.g., color mapping, isosurfaces, dimension reduction, parallel coordinates, multi-variate, tree/graph-structured, text)\n- Direct volume data rendering (e.g., ray-casting, transfer functions, segmentation)\n- Common data formats (e.g., HDF, netCDF, geotiff, GeoJSON, shape files, raw binary, CSV, ASCII to parse)\n- Common visualization software and libraries (e.g., R, Processing, D3.js, GIS, Matlab, IDL, Python)\n- Perceptual and cognitive foundations that drive visual abstractions\n- Visualization design\n- Evaluation of visualization methods and applications\n- Visualization bias\n- Applications of visualization",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Applied Rendering and Techniques",
+      "description" : "- Object and scene modeling\n- Camera and projection modeling\n- Light models and radiometry\n- Rendering",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Geometric Modeling",
+      "description" : "- Basic geometric operations\n- Surface representation/model\n- Volumetric representation/model\n- Procedural representation/model\n- Multi-resolution modeling \n- Reconstruction",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Shading and Advanced Rendering",
+      "description" : "- Solutions and approximations to the rendering equation\n- Time (motion blur), lens position (focus), and continuous frequency (color) and their impact on rendering\n- Shadow mapping\n- Occlusion culling\n- Bidirectional Scattering Distribution function (BSDF) theory and microfacets\n- Subsurface scattering\n- Area light sources\n- Hierarchical depth buffering\n- Image-based rendering\n- Non-photorealistic rendering\n- GPU architecture \n- Human visual systems including adaptation to light, sensitivity to noise, and flicker fusion",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Computer Animation",
+      "description" : "- Principles of Animation\n- Types of animation\n- Key-frame animation\n- Forward and inverse kinematics \n- Skinning algorithms\n- Motion capture",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Simulation",
+      "description" : "- Collision detection and response\n- Procedural animation using noise\n- Particle systems\n- Grid-based fluids\n- Heightfields\n- Rule-based systems (e.g., L-systems, space-colonizing systems, Game of Life)",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Immersion",
+      "description" : "- Immersion levels (i.e., Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR))\n- The definition and distinction of immersion and presence\n- 360 Video\n- Stereoscopic display\n- Viewer tracking\n- Time-critical rendering to achieve optimal motion to photon (MTP) latency\n    - Branching movies\n- Distributed VR, collaboration over computer network\n- Presence and factors that impact level of immersion\n- 3D interaction\n- Applications in medicine, simulation, training, and visualization\n- Safety in immersive applications",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Interaction",
+      "description" : "- Event Driven Programming \n- Graphical User Interface (Single Channel)\n- Accessibility",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Image Processing",
+      "description" : "- Morphological operations\n- Color histograms\n- Image enhancement\n- Image restoration\n- Image coding\n- Connections to deep learning",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Tangible/Physical Computing",
+      "description" : "- Interaction with the physical world\n- Connection to physical artifacts\n- Internet of Things",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    } ]
+  }, {
+    "title" : "Human-Computer Interaction",
+    "shortTitle" : "HCI",
+    "competencies" : [ {
+      "title" : "Understanding the User: Individual goals and interactions with others",
+      "description" : "- User-centered design and evaluation methods\n    - “You are not the users”,\n    - user needs-finding\n    - formative studies\n    - interviews\n    - surveys\n    - usability tests",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Understanding the User: Individual goals and interactions with others (Advanced)",
+      "description" : "- User-centered design and evaluation methods\n    - personas/persona spectrum\n    - user stories/storytelling and techniques for gathering stories\n    - empathy maps\n    - needs assessment (techniques for uncovering needs and gathering requirements - e.g., interviews, surveys, ethnographic and contextual enquiry) \n    - journey maps\n    - evaluating the design\n    - interfacing with stakeholders, as a team\n    - risks associated with physical, distributed, hybrid and virtual teams\n- Physical and cognitive characteristics of the user\n    - physical capabilities that inform interaction design (e.g., color perception, ergonomics)\n    - cognitive models that inform interaction design (e.g., attention, perception and recognition, movement, memory)\n    - topics in social/behavioral psychology (e.g., cognitive biases, change blindness)\n- Designing for diverse user populations\n    - how differences (e.g., in race, ability, age, gender, culture, experience, and education) impact user experiences and needs\n    - internationalization, other cultures, and cross-cultural design\n    - designing for users from other cultures\n    - cross-cultural design\n    - challenges to effective design evaluation (e.g., sampling, generalization; disability and disabled experiences)\n    - universal design  \n- Collaboration and communication\n    - understanding the user in a multi-user context \n    - synchronous group communication (e.g., chat rooms, conferencing, online games)\n    - asynchronous group communication (e.g., email, forums, social networks)\n    - social media, social computing, and social network analysis\n    - online collaboration\n    - social coordination and online communities\n    - avatars, characters, and virtual worlds",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Accountability and Responsibility in Design",
+      "description" : "- Design impact\n    - Sustainability\n    - Inclusivity\n    - Safety, security and privacy\n    - Harm and disparate impact\n- Ethics in design methods and solutions\n    - the role of artificial intelligence\n    - responsibilities for considering stakeholder impact and human factors\n    - the role of design to meet user needs.\n- Requirements in design\n    - ownership responsibility\n    - legal frameworks and compliance requirements\n    - consideration beyond immediate user needs including via iterative reconstruction of problem analysis and “digital well-being” features",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Accountability and Responsibility in Design (Advanced)",
+      "description" : "- Value-sensitive design\n    - identify stakeholders\n    - determine and include diverse stakeholder values and value systems\n- Persuasion through design\n    - assessing persuasive content of a design\n    - persuasion as a design goal",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Accessibility and Inclusive Design",
+      "description" : "- Background\n    - societal and legal support for and obligations to people with disabilities\n    - accessible design benefits everyone\n- Techniques\n    - accessibility standards (e.g., Web Content Accessibility Guidelines)\n- Technologies\n    - features and products that enable accessibility and support inclusive development by designers and engineers\n- IDFs (Inclusive Design Frameworks)\n    - recognizing differences\n- Universal design",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Accessibility and Inclusive Design (Advanced)",
+      "description" : "- Background\n    - Demographics and populations\n    - International perspectives\n    - Attitudes towards people with disabilities\n- Techniques\n    - UX (user experience) design and research\n    - software engineering practices that enable inclusion and accessibility.\n- Technologies\n    - examples of accessibility-enabling features, such as conformance to screen readers\n- Inclusive Design Frameworks\n    - creating inclusive processes, such as participatory design; designing for larger impact\n    - designing for larger impact",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Evaluating the Design",
+      "description" : "- Methods for evaluation with users\n    - formative (e.g. needs-finding and exploratory analysis) and summative assessment (e.g. functionality and usability testing)\n    - elements to evaluate (e.g., utility, efficiency, learnability, user satisfaction, affective elements such as pleasure and engagement)\n    - understanding ethical approval requirements before engaging in user research",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Evaluating the Design (Advanced)",
+      "description" : "- Methods for evaluation with users\n    - qualitative methods (qualitative coding and thematic analysis)\n    - quantitative methods (statistical tests)\n    - mixed methods (e.g., observation, think-aloud, interview, survey, experiment)\n    - presentation requirements (e.g., reports, personas)\n    - user-centered testing\n    - heuristic evaluation\n    - challenges and shortcomings to effective evaluation (e.g., sampling, generalization)\n- Study planning\n    - how to set study goals\n    - hypothesis design\n    - approvals from Institutional Research Boards and ethics committees\n    - how to pre-register a study\n    - within-subjects vs between-subjects design\n- Implications and impacts of design with respect to\n    - the environment\n    - material\n    - society\n    - security\n    - privacy\n    - ethics\n    - broader impacts",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "System Design",
+      "description" : "- Prototyping techniques and tools\n    - low-fidelity prototyping\n    - rapid prototyping\n    - throw-away prototyping\n    - granularity of prototyping \n- Design patterns\n    - iterative design\n    - universal design\n    - interaction design (e.g., data-driven design, event-driven design\n- Design constraints\n    - platforms\n    - devices\n    - resources\n    - balance among usability, security and privacy",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "System Design (Advanced)",
+      "description" : "- Design patterns and guidelines\n    - software architecture patterns\n    - cross-platform design\n    - synchronization\n- Design processes\n    - participatory design\n    - co-design\n    - double-diamond\n    - convergence and divergence\n- Interaction techniques\n    - input and output vectors (e.g., gesture, pose, touch, voice, force)\n    - graphical user interfaces\n    - controllers\n    - haptics\n    - hardware design\n    - error handling\n- Visual UI design\n    - color\n    - layout\n    - gestalt principles",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Society, Ethics, and the Profession",
+      "description" : "- Universal and user-centered design\n- Accountability\n- Accessibility and inclusive design\n- Evaluating the design\n- System design\n- Participatory and inclusive design processes",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    } ]
+  }, {
+    "title" : "Mathematical and Statistical Foundations",
+    "shortTitle" : "MSF",
+    "competencies" : [ {
+      "title" : "Probability",
+      "description" : "- Basic notions: sample spaces, events, probability, conditional probability, Bayes’ rule\n- Discrete random variables and distributions\n- Continuous random variables and distributions\n- Expectation, variance, law of large numbers, central limit theorem\n- Conditional distributions and expectation\n- Applications to computing, the difference between probability and statistics (as subjects)",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Statistics",
+      "description" : "- Basic definitions and concepts: populations, samples, measures of central tendency, variance\n- Univariate data: point estimation, confidence intervals",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Statistics (Advanced)",
+      "description" : "- Multivariate data: estimation, correlation, regression\n- Data transformation: dimension reduction, smoothing\n- Statistical models and algorithms\n- Hypothesis testing",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Linear Algebra",
+      "description" : "- Vectors: definitions, vector operations, geometric interpretation, angles: Matrices: definition, matrix operations, meaning of Ax=b.\n- Matrices, matrix-vector equation, geometric interpretation, geometric transformations with matrices\n- Solving equations, row-reduction\n- Linear independence, span, basis\n- Orthogonality, projection, least-squares, orthogonal bases\n- Linear combinations of polynomials, Bezier curves\n- Eigenvectors and eigenvalues\n- Applications to computer science: PCA, SVD, page-rank, graphics",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Calculus",
+      "description" : "- Sequences, series, limits \n- Single-variable derivatives: definition, computation rules (chain rule etc.), derivatives of important functions, applications\n- Single-variable integration: definition, computation rules, integrals of important functions, fundamental theorem of calculus, definite vs indefinite, applications (including in probability)\n- Parametric and polar representations\n- Taylor series\n- Multivariate calculus: partial derivatives, gradient, chain-rule, vector valued functions, \n- Optimization: convexity, global vs local minima, gradient descent, constrained optimization and Lagrange multipliers.\n- ODEs: definition, Euler method, applications to simulation, Monte Carlo integration\n- CS applications: gradient descent for machine learning, forward and inverse kinematics, applications of calculus to probability",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Discrete Mathematics",
+      "description" : "- Sets, relations, functions, cardinality\n- Recursive mathematical definitions\n- Proof techniques (induction, proof by contradiction)\n- Permutations, combinations, counting, pigeonhole principle\n- Modular arithmetic\n- Logic: truth tables, connectives (operators), inference rules, formulas, normal forms, simple predicate logic\n- Graphs: basic definitions\n- Order notation",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    } ]
+  }, {
+    "title" : "Networking and Communication",
+    "shortTitle" : "NC",
+    "competencies" : [ {
+      "title" : "Networked Applications",
+      "description" : "- Naming and address schemes.\n    - DNS\n    - IP addresses\n    - Uniform Resource Identifiers\n- Distributed application paradigms\n    - Client/server\n    - Peer-to-peer\n    - Cloud\n    - Edge\n    - Fog\n- Diversity of networked application demands\n    - Latency\n    - Bandwidth\n    - Loss tolerance\n- Application-layer development using one or more protocols:\n    - HTTP\n    - SMTP\n    - POP3\n- Interactions with TCP, UDP, and Socket APIs.",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Reliability Support",
+      "description" : "- Unreliable delivery\n    - UDP\n    - Other\n- Principles of reliability\n    - Delivery without loss\n    - Duplication\n    - Out of order\n- Error control\n    - Retransmission\n    - Error correction\n- Flow control\n    - Stop and wait\n    - Window based \n- Congestion control\n    - Implicit congestion notification\n    - Explicit congestion notification \n- TCP and performance issues\n    - Tahoe\n    - Reno\n    - Vegas\n    - Cubic \n    - QUIC",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Routing and Forwarding",
+      "description" : "- Routing paradigms and hierarchy\n    - Intra/inter domain\n    - Centralized and decentralized\n    - Source routing\n    - Virtual circuits\n    - QoS\n- Forwarding methods\n    - Forwarding tables\n    - Matching algorithms\n- IP and Scalability issues\n    - NAT\n    - CIDR\n    - BGP\n    - Different versions of IP",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Single Hop Communication",
+      "description" : "- Introduction to modulation, bandwidth, and communication media.\n- Encoding and Framing.\n- Medium Access Control (MAC)\n    - Random access\n    - Scheduled access\n- Ethernet\n- Switching\n- Local Area Network Topologies (e.g. data center networks)",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Network Security (Introduction)",
+      "description" : "- General intro about security  \n    - Threats\n    - Vulnerabilities\n    - Countermeasures",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Network Security (Attacks)",
+      "description" : "- Network specific threats and attack types  \n    - Denial of service\n    - Spoofing\n    - Sniffing\n    - Traffic redirection\n    - Man-in-the-middle\n    - Message integrity attacks\n    - Routing attacks\n    - Traffic analysis",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Network Security (Countermeasures)",
+      "description" : "- Countermeasures \n    - Cryptography (e.g. SSL, symmetric/asymmetric).\n    - Architectures for secure networks (e.g., secure channels, secure routing protocols, secure DNS, VPNs, DMZ, Zero Trust Network Access, hyper network security, anonymous communication protocols, isolation)\n    - Network monitoring, intrusion detection, firewalls, spoofing and DoS protection, honeypots, tracebacks, BGP Sec.",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Wireless Networks",
+      "description" : "- Principles of cellular communication (e.g. 4G, 5G)\n- Principles of Wireless LANs (mainly 802.11)\n- Device to device communication\n- Multihop wireless networks\n- Examples (e.g ad hoc networks, opportunistic, delay tolerant)",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Emerging Topics",
+      "description" : "- Middleboxes (e.g. filtering, deep packet inspection, load balancing, NAT, CDN)\n- Virtualization (e.g. SDN, Data Center Networks)\n- Quantum Networking (e.g. Intro to the domain, teleportation, security, Quantum Internet)",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Fundamentals",
+      "description" : "- Importance of networking in contemporary computing, and associated challenges.\n- Organization of the Internet\n    - Users, \n    - Internet Service Providers\n    - Autonomous systems\n    - Content providers\n    - Content delivery networks",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Fundamentals (Switching)",
+      "description" : "- Switching techniques \n    - Circuit Switching\n    - Packet Switching",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Fundamentals (Layers)",
+      "description" : "- Layers and their roles.\n    - Application\n    - Transport\n    - Network\n    - Datalink\n    - Physical \n- Layering principles\n    - Encapsulation\n    - Hourglass model",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Fundamentals (Networking)",
+      "description" : "- Network elements\n    - Routers\n    - Switches\n    - Hubs\n    - Access points\n    - Hosts",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Fundamentals (Queues)",
+      "description" : "- Basic queueing concepts\n    - Relationship with latency\n    - Relationship with Congestion\n    - Relationship with Service levels",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    } ]
+  }, {
+    "title" : "Operating Systems",
+    "shortTitle" : "OS",
+    "competencies" : [ {
+      "title" : "Society, Ethics, and the Profession",
+      "description" : "- Open source in operating systems\n- End-of-life issues with sunsetting operating systems",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Concurrency",
+      "description" : "- Thread abstraction relative to concurrency\n- Race conditions, critical regions (role of interrupts if needed)\n- Deadlocks and starvation\n- Multiprocessor issues (spin-locks, reentrancy)\n- Multiprocess concurrency vs multithreading",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Concurrency (Advanced)",
+      "description" : "- Thread creation, states, structures\n- Thread APIs\n- Deadlocks and starvation (necessary conditions/mitigations)\n- Implementing thread safe code (semaphores, mutex locks, cond vars)\n- Race conditions in shared memory",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Protection and Safety",
+      "description" : "- Overview of operating system security mechanisms\n- Attacks and antagonism (scheduling, etc.)\n- Review of major vulnerabilities in real operating systems\n- Operating systems mitigation strategies such as backups \n- Policy/mechanism separation \n- Security methods and devices\n- Protection, access control, and authentication",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Role and Purpose of Operating Systems",
+      "description" : "- Operating system as mediator between general purpose hardware and application-specific software\n- Universal operating system functions\n- Extended and/or specialized operating system functions\n- Design issues\n- Influences of security, networking, multimedia, parallel and distributed computing\n- Overarching concern of security/protection: Neglecting to consider security at every layer creates an opportunity to inappropriately access resources.",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Principles of Operating System",
+      "description" : "- Operating system software design and approaches\n- Abstractions, processes, and resources\n- Concept of system calls and links to application program interfaces\n- The evolution of the link between hardware architecture and the operating system functions\n- Protection of resources means protecting some machine instructions/functions\n- Leveraging interrupts from hardware level: service routines and implementations\n- Concept of user/system state and protection, transition to kernel mode using system calls\n- Mechanism for invoking of system calls, the corresponding mode and context switch and return from interrupt\n- Performance costs of context switches and associated cache flushes when performing process switches in Spectre-mitigated environments",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Scheduling",
+      "description" : "- Preemptive and non-preemptive scheduling\n- Schedulers and policies.\n- Concepts of Symmetric Multi-Processor (SMP) multiprocessor scheduling and cache coherence\n- Timers (e.g., building many timers out of finite hardware timers)\n- Fairness and starvation",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Process Model",
+      "description" : "- Processes and threads relative to virtualization - Protected memory, process state, memory isolation, etc.\n- Memory footprint/segmentation (stack, heap, etc.)\n- Creating and loading executables, shared libraries, and dynamic linking\n- Dispatching and context switching\n- Interprocess communication",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Memory Management",
+      "description" : "- Review of physical memory, address translation and memory management hardware\n- Impact of memory hierarchy including cache concept, cache lookup, etc. on operating system mechanisms and policy\n- Logical and physical addressing, address space virtualization\n- Concepts of paging, page replacement, thrashing and allocation of pages and frames\n- Allocation/deallocation/storage techniques (algorithms and data structure) performance and flexibility\n- Memory caching and cache coherence and the effect of flushing the cache to avoid speculative execution vulnerabilities\n- Security mechanisms and concepts in memory management including sandboxing, protection, isolation, and relevant vectors of attack",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Device management",
+      "description" : "- Buffering strategies \n- Direct Memory Access and Polled I/O, Memory-mapped I/O\n- Historical and contextual - Persistent storage device management (magnetic, SSD, etc.)",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "File Systems API and Implementation",
+      "description" : "- Concept of a file including Data, Metadata, Operations and Access-mode\n- File system mounting\n- File access control\n- File sharing\n- Basic file allocation methods including linked, allocation table, etc.\n- File system structures comprising file allocation including various directory structures and methods for uniquely identifying files (name, identified or metadata storage location)\n- Allocation/deallocation/storage techniques (algorithms and data structure) impact on performance and flexibility (i.e. Internal and external fragmentation and compaction)\n- Free space management such as using bit tables vs linking\n- Implementation of directories to segment and track file location",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Advanced File systems",
+      "description" : "- File systems: partitioning, mount/unmount, virtual file systems\n- In-depth implementation techniques\n- Memory-mapped files\n- Special-purpose file systems\n- Naming, searching, access, backups\n- Journaling and log-structured file systems",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Virtualization",
+      "description" : "- Using virtualization and isolation to achieve protection and predictable performance\n- Advanced paging and virtual memory\n- Virtual file systems and virtual devices\n- Containers and their comparison to virtual machine\n- Thrashing",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Real-time and Embedded Systems",
+      "description" : "- Process and task scheduling\n- Deadlines and real-time issues \n- Low-latency vs ”soft real-time\" vs \"hard real time\"",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Fault tolerance",
+      "description" : "- Reliable and available systems\n- Software and hardware approaches to address tolerance (RAID)",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    } ]
+  }, {
+    "title" : "Parallel and Distributed Computing",
+    "shortTitle" : "PDC",
+    "competencies" : [ {
+      "title" : "Algorithms (Advanced)",
+      "description" : "- One or more of the following algorithmic domains:\n    - Linear algebra: Vector and matrix operations, numerical precision/stability, applications in data analytics and machine learning.\n    - Data processing: sorting, searching and retrieval, concurrent data structures.\n    - Graphs, search, and combinatorics: Marking, edge-parallelization, bounding, speculation, network-based analytics.\n    - Modeling and simulation: differential equations; randomization, N-body problems, genetic algorithms.\n    - Computational Logic: Satisfiability (SAT), concurrent logic programming.\n    - Graphics and computational geometry: Transforms, rendering, ray-tracing.\n    - Resource management: Allocating, placing, recycling and scheduling processors, memory, channels, and hosts; exclusive vs shared resources; static, dynamic and elastic algorithms; Real-time constraints; Batching, prioritization, partitioning; decentralization via work-stealing and related techniques.\n    - Services: Implementing web APIs, electronic currency, transaction systems, multiplayer games.",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Parallelism",
+      "description" : "- Parallelism\n    - Declarative parallelism: Determining which actions may, or must not, be performed in parallel, at the level of instructions, functions, closures, composite actions, sessions, tasks, and services is the main idea underlying PDC algorithms; failing to do so is the main source of errors.\n    - Defining order: for example, using happens-before relations or series/parallel directed acyclic graphs representing programs.\n    - Independence: determining when ordering doesn’t matter, in terms of commutativity, dependencies, preconditions.\n    - Ensuring ordering among otherwise parallel actions when necessary, including locking, safe publication; and imposing communication: – sending a message happens before receiving it; conversely relaxing when unnecessary.",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Distribution",
+      "description" : "- Distribution\n    - Defining places as devices executing actions, including hardware components, remote hosts, may also include external, uncontrolled devices, hosts, and users.\n    - One device may time-slice or otherwise emulate multiple parallel actions by fewer processors by scheduling and virtualization.\n    - Naming or identifying places (e.g., device IDs) and actions as parties (e.g., thread IDs).\n    - Activities across places may communicate across media.\n",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Starting Activities",
+      "description" : "- Starting activities\n    - Options that enable actions to be performed (eventually) at places range from hardwiring to configuration scripts; also establishing communication and resource management; these are expressed differently across languages and contexts, usually relying on automated provisioning and management by platforms.\n    - Procedural: Enabling multiple actions to start at a given program point; for example, starting new threads, possibly scoping or otherwise organizing them in hierarchical groups.\n    - Reactive: Enabling upon an event by installing an event handler, with less control of when actions begin or end.\n    - Dependent: Enabling upon completion of others; for example, sequencing sets of parallel actions.\n    - Granularity: Execution cost of action bodies should outweigh the overhead of arranging.\n",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Execution Properties",
+      "description" : "- Execution Properties\n    - Nondeterministic execution of unordered actions.\n    - Consistency: Ensuring agreement among parties about values and predicates when necessary to avoid races, maintain safety and atomicity, or arrive at consensus.\n    - Fault tolerance: Handling failures in parties or communication, including (Byzantine) misbehavior due to untrusted parties and protocols, when necessary to maintain progress or availability.\n    - Tradeoffs are one focus of evaluation.",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Programs (Advanced)",
+      "description" : "- One or more of the following mappings and mechanisms across layered systems:\n    - CPU data- and instruction-level- parallelism.\n    - SIMD and heterogeneous data parallelism.\n    - Multicore scheduled concurrency, tasks, actors.\n    - Clusters, clouds; elastic provisioning.\n    - Networked distributed systems.\n    - Emerging technologies such as quantum computing and molecular computing.",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Communication",
+      "description" : "- Media\n    - Varieties: channels (message passing or IO), shared memory, heterogeneous, data stores.\n    - Reliance on the availability and nature of underlying hardware, connectivity, and protocols; language support, emulation.\n- Channels\n    - Explicit (usually named) party-to-party communication media.\n    - APIs: sockets, architectural and language-based constructs, and layered constructs such as RPC (remote procedure call).\n    - IO channel APIs.\n- Memory\n    - Shared memory architectures in which parties directly communicate only with memory at given addresses, with extensions to heterogeneous memory supporting multiple memory stores with explicit data transfer across them; for example, GPU local and shared memory, Direct Memory Access (DMA).\n    - Memory hierarchies: Multiple layers of sharing domains, scopes and caches; locality: latency, false-sharing.\n    - Consistency properties: Bitwise atomicity limits, coherence, local ordering.\n- Data Stores\n    - Cooperatively maintained data structures implementing maps and related ADTs.\n    - Varieties: Owned, shared, sharded, replicated, immutable, versioned.",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Communication (Advanced)",
+      "description" : "One or more of the following properties and extensions:\n- Topologies: Unicast, Multicast, Mailboxes, Switches; Routing via hardware and software interconnection networks\n- Media concurrency properties: Ordering, consistency, idempotency, overlapping communication with computation\n- Media performance: Latency, bandwidth (throughput) contention (congestion), responsiveness (liveness), reliability (error and drop rates), protocol-based progress (acks, timeouts, mediation)\n- Media security properties: integrity, privacy, authentication, authorization\n- Data formats: marshaling, validation, encryption, compression\n- Channel policies: Endpoints, Sessions, Channel policies: Endpoints, sessions, buffering, saturation response (waiting vs dropping), Rate control.\n- Multiplexing and demultiplexing many relatively slow I/O devices or parties; completion-based and scheduler-based techniques; async-await, select and polling APIs.\n- Formalization and analysis of channel communication; for example, CSP.\n- Applications of queuing theory to model and predict performance.\n- Memory models: sequential and release/acquire consistency.\n- Memory management; including reclamation of shared data; reference counts and alternatives.\n- Bulk data placement and transfer; reducing message traffic and improving locality; overlapping data transfer and computation; impact of data layout such as array-of-structs vs struct-of-arrays.\n- Emulating shared memory: distributed shared memory, Remote Direct Memory Access (RDMA).\n- Data store consistency: Atomicity, linearizability, transactionality, coherence, causal ordering, conflict resolution, eventual consistency, blockchains.\n- Faults, partitioning, and partial failures; voting; protocols such as Paxos and Raft.\n- Design tradeoffs among consistency, availability, partition (fault) tolerance; impossibility of meeting all at once.\n- Security and trust: Byzantine failures, proof of work and alternatives.",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Coordination",
+      "description" : "- Dependencies\n    - Initiation or progress of one activity may be dependent on other activities, so as to avoid race conditions, ensure termination, or meet other requirements.\n    - Ensuring progress by avoiding dependency cycles, using monotonic conditions, removing inessential dependencies.\n- Control constructs and design patterns\n    - Completion-based: Barriers, joins, including termination control.\n    - Data-enabled: Queues, producer-consumer designs.\n    - Condition-based: Polling, retrying, backoffs, helping, suspension, signaling, timeouts\n    - Reactive: enabling and triggering continuations.\n- Atomicity\n    - Atomic instructions, enforced local access orderings.\n    - Locks and mutual exclusion; lock granularity.\n    - Deadlock avoidance: Ordering, coarsening, randomized retries; encapsulation via lock managers.\n    - Common errors: Failing to lock or unlock when necessary, holding locks while invoking unknown operations.\n    - Avoiding locks: replication, read-only, ownership, and non-blocking constructions.",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Coordination (Advanced)",
+      "description" : "- One or more of the following properties and extensions:\n    - Progress properties including lock-free, wait-free, fairness, priority scheduling; interactions with consistency, reliability.\n    - Performance with respect to contention, granularity, convoying, scaling.\n    - Non-blocking data structures and algorithms.\n    - Ownership and resource control,\n    - Lock variants and alternatives: sequence locks, read-write locks; Read-Copy-Update (RCU), reentrancy; tickets; controlling spinning versus blocking.\n    - Transaction-based control: Optimistic and conservative.\n    - Distributed locking: reliability.\n    - Alternatives to barriers: Clocks; Counters, Virtual clocks; Dataflow and continuations; Futures and RPC; Consensus-based, Gathering results with reducers and collectors\n        - Speculation, selection, cancellation; observability and security consequences\n    - Resource control using Semaphores and condition variables\n    - Control flow: Scheduling computations, Series-parallel loops with (possibly elected) leaders, Pipelines and Streams, nested parallelism.\n    - Exceptions and failures. Handlers, detection, timeouts, fault tolerance, voting.",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Evaluation",
+      "description" : "- Safety and liveness requirements in terms of temporal logic constructs to express “always” and “eventually”.\n- Identifying, testing for, and repairing violations, including common forms of errors such as failure to ensure necessary ordering (race errors), atomicity (including check-then-act errors), and termination (livelock).\n- Performance requirements metrics for throughput, responsiveness, latency, availability, energy consumption, scalability, resource usage, communication costs, waiting and rate control, fairness; service level agreements.\n- Performance impact of design and implementation choices, including granularity, overhead, and energy consumption.\n- Estimating scalability limitations, for example using Amdahl’ Law or Universal Scalability Law.",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Evaluation (Advanced)",
+      "description" : "- One or more of the following methods and tools:\n    - Extensions to formal sequential requirements such as linearizability.\n    - Protocol, session, and transactional specifications.\n    - Use of tools such as Unified Modelling Language (UML), Temporal Logic of Actions (TLA), program logics.\n    - Security analysis: safety and liveness in the presence of hostile or buggy behaviors by other parties; required properties of communication mechanisms (for example lack of cross-layer leakage), input screening, rate limiting.\n    - Static analysis applied to correctness, throughput, latency, resources, energy\n    - Directed Acyclic Graph (DAG) model analysis of algorithmic efficiency (work, span, critical paths).\n    - Testing and debugging; tools such as race detectors, fuzzers, lock dependency checkers, unit/stress/torture tests, visualizations, continuous integration, continuous deployment, and test generators,\n    - Measuring and comparing throughput, overhead, waiting, contention, communication, data movement, locality, resource usage, behavior in the presence of excessive numbers of events, clients, or threads.\n        - Application domain specific analyses and evaluation techniques.",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Algorithms",
+      "description" : "- Expressing and implementing algorithms in given languages and frameworks, to initiate activities (for example threads), use shared memory constructs, and channel, socket, and/or remote procedure call APIs.\n    - Data parallel examples including map/reduce\n    - Using channel, socket, and/or RPC APIs in a given language, with program control for sending (usually procedural) vs receiving (usually reactive or RPC-based)\n    - Using locks, barriers, and/or synchronizers to; maintain liveness without introducing races\n- Survey of common application domains across  multicore, reactive, data parallel, cluster, cloud, open distributed systems and frameworks.",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    } ]
+  }, {
+    "title" : "Security",
+    "shortTitle" : "SEC",
+    "competencies" : [ {
+      "title" : "Society, Ethics, and the Profession (Advanced)",
+      "description" : "- Security by design\n- Privacy by design and privacy engineering\n- Security and privacy implications of malicious AI/machine learning actors, e.g., identifying deep fakes\n- Societal impacts of Internet of Things (IoT) devices and other emerging technologies on security and privacy",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Secure Coding",
+      "description" : "- Common vulnerabilities and weaknesses\n- SQL injection and other injection attacks\n- Cross-site scripting techniques and mitigations\n- Input validation and data sanitization\n- Type safety and type-safe languages\n- Buffer overflows, stack smashing, and integer overflows\n- Security issues due to race conditions",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Secure Coding (Advanced)",
+      "description" : "- Principles of noninterference and non-deducibility\n- Preventing information flow attacks\n- Offensive security techniques as a defense\n- AI-assisted malware detection techniques\n- Ransomware: creation, prevention, and mitigation.\n- Secure use of third-party components\n- Malware: varieties, creation, reverse engineering, and defense against them\n- Assurance: testing (including fuzzing and penetration testing), verification and validation\n- Static and dynamic analyses\n- Secure compilers and secure code generation",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Cryptography",
+      "description" : "- Differences between algorithmic, applied, and mathematical views of cryptography\n- Mathematical preliminaries: modular arithmetic, Euclidean algorithm, probabilistic independence, linear algebra basics, number theory, finite fields, complexity, asymptotic analysis.\n- Basic cryptography: symmetric key and public key cryptography\n- Basic cryptographic building blocks, including symmetric encryption, asymmetric encryption, hashing, and message authentication\n- Classical cryptosystems, such as shift, substitution, transposition ciphers, code books, machines\n- Kerckhoff’s principle and use of vetted libraries\n- History and real-world applications, e.g., electronic cash, secure channels between clients and servers, secure electronic mail, entity authentication, device pairing, voting systems",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Cryptography (Advanced)",
+      "description" : "- Additional mathematics: primality and factoring; elliptic curve cryptography.\n- Private-key cryptosystems: substitution-permutation networks, linear cryptanalysis, differential cryptanalysis, DES, AES\n- Public-key cryptosystems: Diffie-Hellman, RSA\n- Data integrity and authentication: hashing, digital signatures\n- Cryptographic protocols: challenge-response authentication, zero-knowledge protocols, commitment, oblivious transfer, secure two- or multi-party computation, hash functions, secret sharing, and applications\n- Attacker capabilities: chosen-message attack (for signatures), birthday attacks, side channel attacks, fault injection attacks\n- Quantum cryptography; Post Quantum/Quantum resistant cryptography\n- Blockchain and cryptocurrencies",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Security Analysis, Design, and Engineering",
+      "description" : "- Security engineering goals: building systems that remain dependable despite errors, accidents, or malicious adversaries\n- Privacy engineering goals: building systems that design, implement, and deploy privacy features and controls\n- Problem analysis and situational analysis to address system security\n- Engineering tradeoff analysis based on time, cost, risk tolerance, risk acceptance, return on investment, and so on",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Security Analysis, Design, and Engineering (Advanced)",
+      "description" : "- Security design and engineering, including functional requirements, secure subsystems, information protection, security testing, security assessment, and evaluation\n- Security analysis, covering security requirements analysis; security controls analysis; threat analysis; and vulnerability analysis\n- Security attack domains and attack surfaces, e.g., communications and networking, hardware, physical, social engineering, software, and supply chain\n- Security attack modes, techniques, and tactics, e.g., authentication abuse; brute force; buffer manipulation; code injection; content insertion; denial of service; eavesdropping; function bypass; impersonation; integrity attack; interception; phishing; protocol analysis; privilege abuse; spoofing; and traffic injection\n- Attestation of software products with respect to their specification and adaptiveness\n- Design and development of cyber-physical systems\n- Considerations for trustworthy computing, e.g., tamper resistant packaging, trusted boot, trusted kernel, hardware root of trust, software signing and verification, hardware-based cryptography, virtualization, and containers",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Digital Forensics",
+      "description" : "- Basic principles and methodologies for digital forensics\n- System design for forensics\n- Forensics in different situations: operating systems, file systems, application forensics, web forensics, network forensics, mobile device forensics, use of database auditing\n- Attacks on forensics and preventing such attacks\n- Incident handling processes\n- Rules of evidence – general concepts and differences between jurisdictions\n- Legal issues: digital evidence protection and management, chains of custody, reporting, serving as an expert witness.",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Security Governance",
+      "description" : "- Protecting critical assets from threats\n- Security governance: organizational objectives and general risk assessment\n- Security management: achieve and maintain appropriate levels of confidentiality, integrity, availability, accountability, authenticity, and reliability\n- Security policy: Organizational policies, issue-specific policies, system-specific policies\n- Approaches to identifying and mitigating risks to computing infrastructure\n- Data lifecycle management policies: data collection, backups, and retention; cloud storage and services; breach disclosure",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Foundational Security",
+      "description" : "- Developing a security mindset incorporating crosscutting concepts: confidentiality, integrity, availability, risk assessment, systems thinking, adversarial thinking, human-centered thinking\n- Basic concepts of authentication and authorization/access control \n- Vulnerabilities, threats, attack surfaces, and attack vectors\n- Denial of Service (DoS) and Distributed Denial of Service (DDoS)\n- Principles and practices of protection, e.g., least privilege, open design, fail-safe defaults, defense in depth, and zero trust; and how they can be implemented\n- Optimization considerations between security, privacy, performance, and other design goals\n- Impact of AI on security and privacy: using AI to bolster defenses as well as address increased adversarial capabilities due to AI",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Foundational Security (Advanced)",
+      "description" : "- Access control models (e.g., discretionary, mandatory, role-based, and attribute-based)\n- Security controls\n- Concepts of trust and trustworthiness\n- Applications of a security mindset: web, cloud, and mobile devices\n- Protecting embedded and cyber-physical systems\n- Principles of usable security and human-centered computing\n- Security and trust in AI/machine learning systems, e.g., fit for purpose, ethical operating boundaries, authoritative knowledge sources, verified training data, repeatable system evaluation tests, system attestation, independent validation/certification; unintended consequences from: adverse effect\n- Security risks in building and operating AI/machine learning systems, e.g., algorithm bias, knowledge corpus bias, training corpus bias, copyright violation \n- Hardware considerations in security, e.g., principles of secure hardware, secure processor architectures, cryptographic acceleration, compartmentalization, software-hardware interaction",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Society, Ethics, and the Profession",
+      "description" : "- Principles and practices of privacy\n- Societal impacts on breakdowns in security and privacy.\n- Applicability of laws and regulations on security and privacy\n- Professional ethical considerations when designing secure systems and maintaining privacy; ethical hacking",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    } ]
+  }, {
+    "title" : "Society, Ethics, and the Profession",
+    "shortTitle" : "SEP",
+    "competencies" : [ {
+      "title" : "Communication (Advanced)",
+      "description" : "- Tradeoffs in competing factors that affect communication channels and choices\n- Communicating to solve problems or make recommendations in the workplace, such as raising ethical concerns or addressing accessibility issues",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Social Context",
+      "description" : "- Social implications (e.g., political, and cultural ideologies) in a hyper-networked world where the capabilities and impact of social media, artificial intelligence and computing in general are rapidly evolving\n- Impact of computing applications (e.g., social media, artificial intelligence applications) on individual well-being, and safety of all kinds (e.g., physical, emotional, economic)\n- Consequences of involving computing technologies, particularly artificial intelligence, biometric technologies, and algorithmic decision-making systems, in civic life (e.g., facial recognition technology, biometric tags, resource distribution algorithms, policing software) and how human agency and oversight is crucial\n- How deficits in diversity and accessibility in computing affect society and what steps can be taken to improve equity in computing",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Social Context (Advanced)",
+      "description" : "- Growth and control of the internet, data, computing, and artificial intelligence\n- Often referred to as the digital divide, differences in access to digital technology resources and its resulting ramifications for gender, class, ethnicity, geography, and/or developing countries, including consideration of responsibility to those who might be less wealthy, under threat, or who would struggle to have their voices heard.\n- Accessibility issues, including legal requirements such as Web Content Accessibility Guidelines (www.w3.org/TR/WCAG21)\n- Context-aware computing",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Methods for Ethical Analysis",
+      "description" : "- Avoiding fallacies and misrepresentation in argumentation\n- Ethical theories and decision-making (philosophical and social frameworks)\n- Recognition of the role culture plays in our understanding, adoption, design, and use of computing technology\n- Why ethics is important in computing, and how ethics is similar to, and different from, laws and social norms",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Methods for Ethical Analysis (Advanced)",
+      "description" : "- Professional checklists\n- Evaluation rubrics\n- Stakeholder analysis\n- Standpoint theory\n- Introduction to ethical frameworks (e.g., consequentialism such as utilitarianism, non-consequentialism such as duty, rights, or justice, agent-centered such as virtue or feminism, contractarianism, ethics of care) and their use for analyzing an ethical dilemma",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Professional Ethics",
+      "description" : "- Community values and the laws by which we live\n- The nature of being a professional including care, attention, discipline, fiduciary responsibility, and mentoring\n- Keeping up to date as a computing professional in terms of familiarity, tools, skills, legal and professional frameworks as well as the ability and responsibility to self-assess and progress in the computing field\n- Professional certification, codes of ethics, conduct, and practice, such as the ACM, IEEE, AAAI, and other international societies\n- Accountability, responsibility, and liability (e.g., software correctness, reliability and safety, warranty, negligence, strict liability, ethical approaches to security vulnerability disclosures) including whether a product/service should be built, not just doing so because it is technically possible.\n- Introduction to theories describing the human creation and use of technology including  instrumentalism, sociology of technological systems, disability justice, neutrality thesis, pragmatism, and decolonial models, including developing and using technology to right wrongs and do good\n- Strategies for recognizing and reporting designs, systems, software, and professional conduct (or their outcomes) that may violate law or professional codes of ethics",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Professional Ethics (Advanced)",
+      "description" : "- The role of the computing professional and professional societies in public policy\n- Maintaining awareness of consequences\n- Ethical dissent and whistleblowing\n- The relationship between regional culture and ethical dilemmas\n- Dealing with harassment and discrimination\n- Forms of professional credentialing\n- Ergonomics and healthy computing environments\n- Time-to-market and cost considerations versus quality professional standards",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Intellectual Property",
+      "description" : "- Intellectual property rights\n- Intangible digital intellectual property (IDIP)\n- Legal foundations for intellectual property protection\n- Common software licenses (e.g., MIT, GPL and its variants, Apache, Mozilla, Creative Commons)\n- Plagiarism and authorship",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Intellectual Property (Advanced)",
+      "description" : "- Philosophical foundations of intellectual property\n- Forms of intellectual property (e.g., copyrights, patents, trade secrets, trademarks) and the rights they protect\n- Limitations on copyright protections, including fair use and the first sale doctrine\n- Intellectual property laws and treaties that impact the enforcement of copyrights\n- Software piracy and technical methods for enforcing intellectual property rights, such as digital rights management and closed source software as a trade secret\n- Moral and legal foundations of the open source movement\n- Systems that use others’ data (e.g., large language models)",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Privacy and Civil Liberties",
+      "description" : "- Privacy implications of widespread data collection including but not limited to transactional databases, data warehouses, surveillance systems, cloud computing, and artificial intelligence\n- Conceptions of anonymity, pseudonymity, and identity\n- Technology-based solutions for privacy protection (e.g., end-to-end encryption and differential privacy)\n- Civil liberties, privacy rights, and cultural differences",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Privacy and Civil Liberties (Advanced)",
+      "description" : "- Philosophical and legal conceptions of the nature of privacy including the right to privacy\n- Legal foundations of privacy protection in relevant jurisdictions (e.g., GDPR in the EU)\n- Privacy legislation in areas of practice (e.g., HIPAA in the US, AI Act in the EU)\n- Basic Principles of human-subjects research and principles beyond what the law requires (e.g., Belmont Report, UN Universal Declaration on Human Rights and how this relates to technology)\n- Freedom of expression and its limitations\n- User-generated content, content moderation, and liability",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Communication",
+      "description" : "- Oral, written, and electronic team and group communication\n- Technical communication materials (e.g., source code, and documentation, tutorials, reference materials, API documentation)\n- Communicating with different stakeholders such as customers, leadership, or the general public\n- Team collaboration (including tools) and conflict resolution\n- Accessibility and inclusivity requirements for addressing professional audiences\n- Cultural competence in communication including considering the impact of difference in natural language",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Sustainability",
+      "description" : "- Environmental, social, and cultural impacts of implementation decisions (e.g., sustainability goals, algorithmic bias/outcomes, economic viability, and resource consumption)\n- Local/regional/global social and environmental impacts of computing systems and their use (e.g., carbon footprints, resource usage, e-waste) in hardware (e.g., e-waste, data centers, rare element and resource utilization, recycling) and software (e.g., cloud-based services, blockchain, AI model training and use), not neglecting the impact of everyday use such as hardware (cheap hardware replaced frequently) and software (web-browsing, email, and other services with hidden/remote computational demands).\n- Guidelines for sustainable design standards",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Sustainability (Advanced)",
+      "description" : "- Systemic effects of complex computing technologies and phenomena (e.g., generative AI, data centers, social media, offshoring, remote work)\n- Pervasive computing: Information processing that has been integrated into everyday objects and activities, such as smart energy systems, social networking, and feedback systems to promote sustainable behavior, transportation, environmental monitoring, citizen science and activism\n- How the sustainability of software systems is interdependent with social systems, including the knowledge and skills of its users, organizational processes and policies, and its societal context (e.g., market forces, government policies)",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Computing History",
+      "description" : "- The history of computing: hardware, software, and human/organizational\n- The role of history in the present including within different social contexts, and the relevance of this history on the future",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Computing History (Advanced)",
+      "description" : "- Age I (Pre-digital): Ancient analog computing (Stonehenge, Antikythera mechanism, Salisbury Cathedral clock, etc.), human-calculated number tables, Euclid, Lovelace, Babbage, Gödel, Church, Turing, pre-electronic (electro-mechanical and mechanical) hardware\n- Age II (Early modern computing): ENIAC, UNIVAC, Bombes (Bletchley Park and codebreakers), computer companies (e.g., IBM), mainframes, etc.\n- Age III (PC era): PCs, modern computer hardware and software, Moore’s Law\n- Age IV (Internet): Networking, internet architecture, browsers and their evolution, standards, born-on-the-internet companies, and services (e.g., Google, Amazon, Microsoft, etc.), distributed computing\n- Age V (Mobile & Cloud): Mobile computing and smartphones, cloud computing and models thereof (e.g., SaaS), remote servers, security and privacy, social media\n- Age VI (AI): Decision making systems, recommender systems, generative AI and other machine learning driven tools and technologies",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Economies of Computing",
+      "description" : "- Economic models: regulated and unregulated, monopolies, network effects, and open market; knowledge and attention economies\n- Pricing and deployment strategies: planned obsolescence, subscriptions, freemium, software licensing, open-source, free software, adware\n- Impacts of differences in access to computing resources, and the effect of skilled labor supply and demand on the quality of computing products\n- Automation, AI, and their effects on job markets, developers, and users\n- Ethical concerns surrounding the attention economy and other economies of computing (e.g. informed consent, data collection, use of verbose legalese in user agreements)",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Security Policies, Laws and Computer Crimes",
+      "description" : "- Computer crimes, legal redress for computer criminals and impact on victims and society\n- Social engineering, computing-enabled fraud, identity theft and recovery from these\n- Cyber terrorism, criminal hacking, and hacktivism\n- Malware, viruses, worms\n- Attacks on critical infrastructure such as electrical grids and pipelines\n- Non-technical fundamentals of security (e.g., human engineering, policy, confidentiality)",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Security Policies, Laws and Computer Crimes (Advanced)",
+      "description" : "- Benefits and challenges of existing and proposed computer crime laws\n- Security policies and the challenges of change and compliance\n- Responsibility for security throughout the computing life cycle\n- International and local laws and how they intersect",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Diversity, Equity, Inclusion, and Accessibility",
+      "description" : "- How identity impacts and is impacted by computing technologies and environments (academic and professional)\n- The benefits of diverse development teams and the impacts of teams that are not diverse\n- Inclusive language and charged terminology, and why their use matters\n- Inclusive behaviors and why they matter\n- Designing and developing technology with accessibility in mind\n- How computing professionals can influence and impact diversity, equity, inclusion and accessibility, including but not only through the software they create",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Diversity, Equity, Inclusion, and Accessibility (Advanced)",
+      "description" : "- Experts and their practices that who reflect the identities of the classroom and the world through practical DEIA principles\n- Historic marginalization due to systemic social mechanisms, technological supremacy and global infrastructure challenges to diversity, equity, inclusion and accessibility\n- Cross-cultural differences in, and needs for, diversity, equity, inclusion and accessibility",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    } ]
+  }, {
+    "title" : "Software Development Fundamentals",
+    "shortTitle" : "SDF",
+    "competencies" : [ {
+      "title" : "Software Development Practices",
+      "description" : "- Basic testing including test case design \n- Use of a general-purpose IDE, including its debugger \n- Programming style that improves readability\n- Specifying functionality of a module in a natural language",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Algorithms",
+      "description" : "- Concept of algorithm and notion of algorithm efficiency\n- Some common algorithms (e.g. sorting, searching, tree traversal, graph traversal, etc. \n- Impact of  algorithms on time/space efficiency of programs",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Fundamental Programming Concepts and Practices (Develop)",
+      "description" : "- Basic concepts such as variables, primitive data types, and expression evaluation.\n- How imperative programs work: state and state transitions on execution of statements, flow of control\n- Basic constructs such as assignment statements, conditional and iterative statements, basic I/O\n- Key modularity constructs such as functions and related concepts like parameter passing, scope, abstraction, data encapsulation, etc.\n- Input and output using files and APIs\n- Structured data types available in the chosen programming language like sequences, associative containers, others and when and how to use them\n- Libraries and frameworks provided by the language (when/where applicable)\n- Recursion",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Fundamental Programming Concepts and Practices (Apply)",
+      "description" : "- Dealing with runtime errors in programs\n- Basic concepts of programming errors, testing, and debugging\n- Documenting/commenting code at the program and module level",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Fundamental Data Structures",
+      "description" : "- Standard abstract data types such as lists, stacks, queues, sets, and maps/dictionaries and operations on them \n- Selecting and using appropriate data structures\n- Performance implications of choice of data structure(s)4.   Strings and string processing",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    } ]
+  }, {
+    "title" : "Software Engineering",
+    "shortTitle" : "SE",
+    "competencies" : [ {
+      "title" : "Software Reliability",
+      "description" : "- Concept of reliability\n- Identifying reliability requirements \n- ​​Software failures vs defect injection/detection\n- Software reliability, system reliability and failure behavior (cross-reference SF/Reliability Through Redundancy)\n- Defect injection and removal cycle , and different approaches for defect removal\n- Compare the “error budget” approach to reliability with the “error-free” approach, and identify domains where each is relevant",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Teamwork",
+      "description" : "- Effective communication\n- Common causes of team conflict, and approaches for conflict resolution\n- Cooperative programming \n- Roles and responsibilities in a software team\n- Team processes \n- Importance of team diversity and inclusion \n- Interfacing with stakeholders, as a team\n- Risks associated with physical, distributed, hybrid and virtual teams",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Tools and Environments",
+      "description" : "- Software configuration management and version control \n- Release management\n- Testing tools including static and dynamic analysis tools\n- Software process automation\n- Design and communication tools (docs, diagrams, common forms of design diagrams like UML)\n- Tool integration concepts and mechanisms\n- Use of modern IDE facilities - debugging, refactoring, searching/indexing, etc.",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Software Design",
+      "description" : "- System design principles\n- Software architecture\n- Programming in the large vs programming in the small\n- Code smells and other indications of code quality, distinct from correctness.",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Software Design (Advanced)",
+      "description" : "- API design principles\n- Identifying and codifying data invariants and time invariants\n- Structural and behavioral models of software designs\n- Data design\n- Requirement traceability",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Software Construction",
+      "description" : "- Practical small-scale testing\n- Documentation\n- Coding Style\n- Best Practices for coding\n- Debugging\n- Logging\n- Use of libraries and frameworks developed by others",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Software Verification and Validation",
+      "description" : "- Verification and validation concepts\n- Why testing matters\n- Testing objectives\n- Test kinds\n- Stylistic differences between tests and production code",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Software Verification and Validation (Advanced)",
+      "description" : "- Test planning and generation\n- Test development \n- Verification and validation in the development cycle\n- Domain specific verification and validation challenges",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Product Requirements",
+      "description" : "- Describe functional requirements using, for example, use cases or user stories\n- Properties of requirements including consistency, validity, completeness, and feasibility\n- Requirements elicitation\n- Non-functional requirements, for example, security, usability, or performance (aka Quality Attributes)\n- Risk identification and management\n- Communicating and/or formalizing requirement specifications",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Refactoring and Code Evolution",
+      "description" : "- Hyrum’s Law\n- Backward Compatibility\n- Refactoring\n- Versioning",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    } ]
+  }, {
+    "title" : "Specialized Platform Development",
+    "shortTitle" : "SPD",
+    "competencies" : [ {
+      "title" : "Embedded Platforms",
+      "description" : "- Introduction to the unique characteristics of embedded systems:\n    - Real-time vs soft real-time and non-real-time systems.\n    - Resource constraints, such as memory profiles and deadlines.\n    - API for custom architectures:\n    - GPU technology.\n    - Field Programmable Gate Arrays (FPGA).\n    - Cross-platform systems.\n- Embedded Systems:\n    - Microcontrollers.\n    - Interrupts and feedback.\n    - Interrupt handlers in high-level languages.\n    - Hard and soft interrupts and trap-exits.\n    - Interacting with hardware, actuators, and sensors.\n    - Energy efficiency.\n    - Loosely timed coding and synchronization.\n    - Software adapters.\n- Embedded programming.\n- Hard real-time systems vs soft real-time systems:\n    - Timeliness.\n    - Time synchronization/scheduling.\n    - Prioritization.\n    - Latency.\n    - Compute jitter.\n- Real-time resource management.\n- Memory management:\n    - Mapping programming construct (variable) to a memory location.\n    - Shared memory.\n    - Manual memory management.\n    - Garbage collection.\n    - Safety considerations and safety analysis.\n- Sensors and actuators.\n- Analysis and verification.\n- Application design.",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Game Platforms",
+      "description" : "- Historical and contemporary platforms for games:\n    - Evolution of Game Platforms (e.g., Brown Box to Metaverse and beyond; Improvement in Computing Architectures (CPU and GPU); Platform Convergence and Mobility).\n    - Typical Game Platforms (e.g., Personal Computer; Home Console; Handheld Console; Arcade Machine; Interactive Television; Mobile Phone; Tablet; Integrated Head-Mounted Display; Immersive Installations and Simulators; Internet of Things enabled Devices; CAVE Systems; Web Browsers; Cloud-based Streaming Systems).\n    - Characteristics and Constraints of Different Game Platforms (e.g., Features (local storage, internetworking, peripherals); Run-time performance (GPU/CPU frequency, number of cores); Chipsets (physics processing units, vector co-processors); Expansion Bandwidth (PCIe); Network throughput (Ethernet); Memory types and capacities (DDR/GDDR); Maximum stack depth; Power consumption; Thermal design; Endian)\n    - Typical Sensors, Controllers, and Actuators (e.g., distinctive control system designs—peripherals (mouse, keypad, joystick), game controllers, wearables, interactive surfaces; electronics and bespoke hardware; computer vision, inside-out tracking, and outside-in tracking; IoT-enabled electronics and I/O.\n    - eSports Ecosystems (e.g., evolution of gameplay across platforms; games and eSports; game events such as LAN/arcade tournaments and international events such as the Olympic eSports Series; streamed media and spectatorship; multimedia technologies and broadcast management; professional play; data and machine learning for coaching and training)\n",
+      "taxonomy" : "REMEMBER",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Simulation and Rendering",
+      "description" : "- Real-time Simulation and Rendering Systems\n    - CPU and GPU architectures: (e.g., Flynn’s taxonomy; parallelization; instruction sets; standard components—graphics compute array, graphics memory controller, video graphics array basic input/output system; bus interface; power management unit; video processing unit; display interface).\n    - Pipelines for physical simulations and graphical rendering: (e.g., tile-based, immediate-mode).\n    - Common Contexts for Algorithms, Data Structures, and Mathematical Functions (e.g., game loops; spatial partitioning, viewport culling, and level of detail; collision detection and resolution; physical simulation; behavior for intelligent agents; procedural content generation).\n    - Media representations (e.g., I/O, and computation techniques for virtual worlds: audio; music; sprites; models and textures; text; dialogue; multimedia (e.g., olfaction, tactile).\n",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Game Development",
+      "description" : "- Game Development Tools and Techniques:\n    - Programming Languages (e.g., C++; C#; Lua; Python; JavaScript).\n    - Shader Languages (e.g.,HLSL, GLSL; ShaderGraph).\n    - Graphics Libraries and APIs (e.g., DirectX; SDL; OpenGL; Metal; Vulkan; WebGL).\n    - Common Development Tools and Environments (e.g., IDEs; Debuggers; Profilers; Version Control Systems including those handling binary assets; Development Kits and Production/Consumer Kits; Emulators).\n",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Game Engines",
+      "description" : "- Game Engines\n    - Open Game Engines (e.g.,Unreal; Unity; Godot; CryEngine; Phyre; Source 2; Pygame and Ren’Py; Phaser; Twine; SpringRTS)\n    - Techniques (e.g., Ideation, Prototyping, Iterative Design and Implementation, Compiling Executable Builds, Development Operations and Quality Assurance—Play Testing and Technical Testing, Profiling; Optimization, Porting; Internationalization and Localization, Networking).\n",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Game Design",
+      "description" : "- Game Design\n    - Vocabulary (e.g., game definitions; mechanics-dynamics-aesthetics model; industry terminology; experience design; models of experience and emotion).\n    - Design Thinking and User-Centered Experience Design (e.g., methods of designing games; iteration, incrementing, and the double-diamond; phases of pre- and post-production; quality assurance, including alpha and beta testing; stakeholder and customer involvement; community management).\n    - Genres (e.g., adventure; walking simulator; first-person shooter; real-time strategy; multiplayer online battle arena (MOBA); role-playing game (rpg)).\n    - Audiences and Player Taxonomies (e.g., people who play games; diversity and broadening participation; pleasures, player types, and preferences; Bartle, yee).\n    - Proliferation of digital game technologies to domains beyond entertainment (e.g., Education and Training; Serious Games; Virtual Production; eSports; Gamification; Immersive Experience Design; Creative Industry Practice; Artistic Practice; Procedural Rhetoric).",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Common Aspects/Shared Concerns",
+      "description" : "- Overview of development platforms (i.e., web, mobile, game, robotics, embedded, and Interactive).\n    - Input/sensors/control devices/haptic devices.\n    - Resource constraints:\n        - Computational\n        - Data storage\n        - Memory\n        - Communication\n    - Requirements - security, uptime availability, fault tolerance.\n    - Output/actuators/haptic devices.\n- Programming via platform-specific Application Programming Interface (API) vs traditional application construction.\n- Overview of platform Languages (e.g., Python, Swift, Lua, Kotlin).\n- Programming under platform constraints and requirements (e.g., available development tools, development, security considerations).\n- Techniques for learning and mastering a platform-specific programming language.",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Web Platforms",
+      "description" : "- Web programming languages (e.g., HTML5, JavaScript, PHP, CSS)\n- Web platforms, frameworks, or meta-frameworks:\n    - Cloud services\n    - API, Web Components\n- Software as a Service (SaaS).\n- Web standards such as document object model, accessibility.\n- Security and Privacy Considerations.",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Mobile Platforms",
+      "description" : "- Development with:\n    - Mobile programming languages.\n    - Mobile programming environments.\n- Mobile platform constraints:\n    - User interface design.\n    - Security.\n- Access:\n    - Accessing data through APIs.\n    - Designing API endpoints for mobile apps: pitfalls and design considerations.\n    - Network and the web interfaces.",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Robot Platforms",
+      "description" : "- Types of robotic platforms and devices.\n- Sensors, embedded computation, and effectors (actuators).\n- Robot-specific languages and libraries.\n- Robotic software architecture (e.g., using the Robot Operating System (ROS)).\n- Robotic platform constraints and design considerations.\n- Interconnections with physical or simulated systems.\n- Robotic Algorithms\n- Forward kinematics.\n    - Inverse kinematics.\n    - Dynamics.\n    - Navigation and path planning.\n    - Grasping and manipulation.\n- Safety and interaction considerations.",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    } ]
+  }, {
+    "title" : "Systems Fundamentals",
+    "shortTitle" : "SF",
+    "competencies" : [ {
+      "title" : "Performance Evaluation",
+      "description" : "- Performance figures of merit\n- Workloads and representative benchmarks, and methods of collecting and analyzing performance figures of merit\n- CPI (Cycles per Instruction) equation as a tool for understanding tradeoffs in the design of instruction sets, processor pipelines, and memory system organizations.\n- Amdahl’s Law: the part of the computation that cannot be sped up limits the effect of the parts that can\n- Order of magnitude analysis (Big O notation)\n- Analysis of slow and fast paths of a system\n- Events on their effect on performance (e.g., instruction stalls, cache misses, page faults)",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Performance Evaluation (Advanced)",
+      "description" : "- Analytical tools to guide quantitative evaluation\n- Understanding layered systems, workloads, and platforms, their implications for performance, and the challenges they represent for evaluation\n- Microbenchmarking pitfalls",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "System Reliability",
+      "description" : "- Distinction between bugs and faults\n- Reliability vs availability\n- Reliability through redundancy\n    - check and retry\n    - redundant encoding (error correction codes, CRC, FEC)\n    - duplication/mirroring/replicas \n- Other approaches to reliability (e.g., journaling)",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "System Security",
+      "description" : "- Common system security issues (e.g., viruses, denial-of-service attacks and eavesdropping)\n- Countermeasures\n    - Cryptography\n    - Security architecture \n- Representative countermeasure systems\n    - Intrusion detection systems, firewalls",
+      "taxonomy" : "EVALUATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "System Design",
+      "description" : "- Common criteria of system design (e.g., liveness, safety, robustness, scalability and security)\n- Designs of representative systems (e.g., Apache web server, Spark and Linux)",
+      "taxonomy" : "CREATE",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Overview of Computer Systems",
+      "description" : "- Basic building blocks and components of a computer (gates, flip-flops, registers, interconnections; datapath + control + memory)\n- Hardware as a computational paradigm: Fundamental logic building blocks; Logic expressions, minimization, sum of product forms\n- Programming abstractions, interfaces, and use of libraries\n- Distinction and interaction between application and OS services, remote procedure call\n- Basic concept of pipelining, overlapped processing stages\n- Basic concept of scaling: going faster vs handling larger problems",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Basic Concepts",
+      "description" : "- Digital vs Analog/Discrete vs Continuous Systems\n- Simple logic gates, logical expressions, Boolean logic simplification\n- Clocks, State, Sequencing\n- State and state transition (e.g., starting state, final state, life cycle of states)\n- Finite state machines (e.g., NFA, DFA)\n- Combinational Logic, Sequential Logic, Registers, Memories\n- Computers and Network Protocols as examples of State Machines\n- Sequential vs parallel processing\n- Application-level sequential processing: single thread\n- Simple application-level parallel processing: request level (web services/client-server/distributed), single thread per server, multiple threads with multiple servers, pipelining",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "Resource Management",
+      "description" : "- Different types of resources (e.g., processor share, memory, disk, net bandwidth)\n- Common resource allocation/scheduling algorithms (e.g., first-come-first-serve, priority-based scheduling, fair scheduling and preemptive scheduling)\n- Advantages and disadvantages of common scheduling algorithms",
+      "taxonomy" : "UNDERSTAND",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "System Performance",
+      "description" : "- Latencies in computer systems\n    - Speed of light and computers (one foot per nanosecond vs one GHz clocks)\n    - Memory vs disk latencies vs across-the-network memory\n- Caches and the effects of spatial and temporal locality on performance in processors and systems\n- Caches and cache coherency in databases, operating systems, distributed systems, and computer architecture\n- Introduction to the processor memory hierarchy",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    }, {
+      "title" : "System Performance (Advanced)",
+      "description" : "- The formula for average memory access time\n- Rationale of virtualization and isolation: protection and predictable performance\n- Levels of indirection, illustrated by virtual memory for managing physical memory resources\n- Methods for implementing virtual memory and virtual machines",
+      "taxonomy" : "APPLY",
+      "version" : "1.0.0",
+      "sourceId" : 1
+    } ]
+  } ],
+  "sources" : [ {
+    "id" : 1,
+    "title" : "Computer Science Curricula 2023",
+    "author" : "The Joint Task Force on Computing Curricula",
+    "uri" : "https://csed.acm.org/cs2023-report-with-feedback/"
+  } ]
+}
