@@ -1,4 +1,5 @@
 # Standardized Competency Catalog for Technical University of Munich
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14045626.svg)](https://doi.org/10.5281/zenodo.14045626)
 
 This repository contains a single file, `standardized-competency-catalog.json`, representing the standardized competency catalog used at the Technical University of Munich (TUM). This catalog is aligned with the IEEE Computer Science Curriculum (2024) and has been formatted to be compatible with the Artemis Learning Management System.
 
