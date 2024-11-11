@@ -1,0 +1,25 @@
+cff-version: 1.1.0
+message: "If you use this dataset, please cite it as below."
+authors:
+- family-names: Anzinger
+  given-names: Maximilian
+  orcid: https://orcid.org/0009-0000-7378-6292
+  affiliation: "Technical University of Munich"
+- family-names: Stief
+  given-names: Raphael
+- family-names: Krusche
+  given-names: Stephan
+  orcid: https://orcid.org/0000-0002-4552-644X
+  affiliation: "Technical University of Munich"
+title:Standardized Competency Catalog used at TUM
+version: 1.0.0
+date-released: 2024-11-06
+identifiers:
+  - description: This is the collection of archived snapshots of all versions of the Standardized Competency Catalog used at TUM
+    type: doi
+    value: "10.5281/zenodo.14045625"
+  - description: This is the archived snapshot of version 1.0.0 of the Standardized Competency Catalog used at TUM
+    type: doi
+    value: "10.5281/zenodo.14045626"
+license: MIT
+repository-code: "https://github.com/ls1intum/standardized-competency-catalog"
