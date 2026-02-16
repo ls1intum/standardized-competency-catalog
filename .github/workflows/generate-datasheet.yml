@@ -1,0 +1,60 @@
+name: Generate Dataset Datasheet
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-datasheet:
+    if: github.event_name != 'push' || !contains(github.event.head_commit.message, '[skip datasheet]')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install PDF toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-pictures texlive-latex-extra
+
+      - name: Generate datasheet artifacts
+        run: |
+          python3 scripts/generate_datasheet.py \
+            --input standardized-comptency-catalog.json \
+            --output standardized-competency-catalog-datasheet.pdf
+
+      - name: Upload datasheet artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: standardized-competency-catalog-datasheet
+          path: |
+            standardized-competency-catalog-datasheet.pdf
+            standardized-competency-catalog-datasheet.md
+            standardized-competency-catalog-datasheet.stats.json
+          if-no-files-found: error
+          retention-days: 90
+
+      - name: Commit datasheet outputs to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add standardized-competency-catalog-datasheet.pdf \
+                  standardized-competency-catalog-datasheet.md \
+                  standardized-competency-catalog-datasheet.stats.json
+          if git diff --cached --quiet; then
+            echo "No datasheet changes to commit."
+            exit 0
+          fi
+          git commit -m "ci: update datasheet outputs [skip datasheet]"
+          git push
