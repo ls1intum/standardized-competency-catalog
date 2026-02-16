@@ -652,10 +652,6 @@ def run_pandoc(markdown_text: str, output_pdf: Path) -> None:
         "-o",
         str(output_pdf),
         "--pdf-engine=xelatex",
-        "-V",
-        "mainfont=Helvetica",
-        "-V",
-        "sansfont=Helvetica",
     ]
 
     try:
