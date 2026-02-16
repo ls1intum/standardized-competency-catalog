@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-02-16 18:03:50",
+  "knowledge_area_count": 17,
+  "competency_count": 208,
+  "source_count": 1,
+  "avg_competencies_per_area": 12.235294117647058,
+  "missing_descriptions": 0,
+  "per_area_counts": [
+    {
+      "knowledge_area": "Society, Ethics, and the Profession",
+      "competency_count": 21
+    },
+    {
+      "knowledge_area": "Artificial Intelligence",
+      "competency_count": 15
+    },
+    {
+      "knowledge_area": "Data Management",
+      "competency_count": 15
+    },
+    {
+      "knowledge_area": "Operating Systems",
+      "competency_count": 15
+    },
+    {
+      "knowledge_area": "Foundations of Programming Languages",
+      "competency_count": 14
+    },
+    {
+      "knowledge_area": "Networking and Communication",
+      "competency_count": 14
+    },
+    {
+      "knowledge_area": "Architecture and Organization",
+      "competency_count": 13
+    },
+    {
+      "knowledge_area": "Parallel and Distributed Computing",
+      "competency_count": 13
+    },
+    {
+      "knowledge_area": "Algorithmic Foundations",
+      "competency_count": 12
+    },
+    {
+      "knowledge_area": "Graphics and Interactive Techniques",
+      "competency_count": 12
+    },
+    {
+      "knowledge_area": "Security",
+      "competency_count": 12
+    },
+    {
+      "knowledge_area": "Human-Computer Interaction",
+      "competency_count": 11
+    },
+    {
+      "knowledge_area": "Software Engineering",
+      "competency_count": 10
+    },
+    {
+      "knowledge_area": "Specialized Platform Development",
+      "competency_count": 10
+    },
+    {
+      "knowledge_area": "Systems Fundamentals",
+      "competency_count": 10
+    },
+    {
+      "knowledge_area": "Mathematical and Statistical Foundations",
+      "competency_count": 6
+    },
+    {
+      "knowledge_area": "Software Development Fundamentals",
+      "competency_count": 5
+    }
+  ],
+  "taxonomy_counter": {
+    "EVALUATE": 34,
+    "UNDERSTAND": 98,
+    "APPLY": 30,
+    "CREATE": 45,
+    "REMEMBER": 1
+  },
+  "version_counter": {
+    "1.0.0": 208
+  },
+  "source_counter": {
+    "1": 208
+  },
+  "quality_checks": {
+    "invalid_knowledge_area_items": 0,
+    "invalid_competency_items": 0,
+    "missing_area_fields": {},
+    "missing_competency_fields": {},
+    "duplicate_knowledge_areas": {},
+    "duplicate_competency_titles_global": {
+      "Society, Ethics and the Profession": 2,
+      "Society, Ethics, and the Profession": 4,
+      "System Design": 2,
+      "Communication": 2,
+      "Communication (Advanced)": 2,
+      "Algorithms": 2
+    },
+    "duplicate_competency_titles_by_area": {},
+    "missing_source_refs": 0,
+    "invalid_source_refs": {},
+    "unexpected_knowledge_area_keys": {},
+    "unexpected_competency_keys": {},
+    "issue_summary": [
+      "Duplicate competency titles detected"
+    ]
+  }
+}
